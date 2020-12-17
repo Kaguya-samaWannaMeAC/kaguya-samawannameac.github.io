@@ -66,7 +66,7 @@ $$
 
 ## **F**
 
-**upsolved by JJLeo**
+**upsolved by 2sozx JJLeo**
 
 ### 题意
 
