@@ -1,5 +1,8 @@
 site_name: Kaguya-samaWannaMeAC-Wiki
 
+repo_name: 'Kaguya-samaWannaMeAC'
+repo_url: 'https://github.com/Kaguya-samaWannaMeAC/Kaguya-samaWannaMeAC-Wiki'
+
 theme:
   name: material
   palette:
