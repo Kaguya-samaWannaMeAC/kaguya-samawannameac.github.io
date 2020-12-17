@@ -36,7 +36,7 @@
 
 ## **D**
 
-**upsolved by 2sozx JJLeo**
+**solved by 2sozx JJLeo**
 
 ### 题意
 
@@ -66,7 +66,7 @@ $$
 
 ## **F**
 
-**upsolved by 2sozx JJLeo**
+**solved by 2sozx JJLeo**
 
 ### 题意
 
@@ -104,7 +104,7 @@ $$
 
 ## **I**
 
-**upsolved by JJLeo**
+**solved by JJLeo**
 
 ### 题意
 
@@ -116,7 +116,7 @@ $$
 
 ## **J**
 
-**upsolved by JJLeo**
+**solved by JJLeo**
 
 ### 题意
 
