@@ -47,7 +47,7 @@
 斜着看图可以发现将每个十字的中心重新赋一个坐标，对应的方程为：
 $$
 \begin{cases}
-i+2j=x \\\\
+i+2j=x \newline
 2i+j=y
 \end{cases}
 $$
