@@ -55,8 +55,8 @@ nav:
   - 首页: index.md
   - 比赛记录: 
     - 比赛模板: contest/template.md
-    - XIX SPb Div1 2020.12.16: contest/XIX SPb Div1 2020.12.16.md
     - SEERC 2016 2020.05.10: contest/SEERC2016 2020.05.10.md
     - 2017-2018 NEERC Moscow 2020.05.17: contest/2017-2018 NEERC Moscow 2020.05.17.md
     - 2009-2010 NEERC Western 2020.05.24: contest/2009-2010 NEERC Western 2020.05.24.md
+    - XIX SPb Div1 2020.12.16: contest/XIX SPb Div1 2020.12.16.md
   
