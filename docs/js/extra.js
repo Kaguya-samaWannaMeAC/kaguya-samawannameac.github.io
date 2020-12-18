@@ -14,7 +14,7 @@
           width: "80%"      //设置换行的点，默认是遇到等号=换行
         } 
       },
-      showProcessingMessages: true,    //隐藏加载时候左下角加载情况的展示
+      showProcessingMessages: false,    //隐藏加载时候左下角加载情况的展示
       messageStyle: "none"              //隐藏加载时候左下角加载情况的展示
     });
   }
