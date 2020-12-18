@@ -48,7 +48,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_javascript:
-  # - 'js/extra.js'
+  - 'js/extra.js'
   - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
 
 nav:
