@@ -1,5 +1,9 @@
 # [2020-2021 BUAA ICPC Team Supplementary Training 05](https://codeforc.es/)
 
+| 排名  | 当场过题数 | 至今过题数 | 总题数 |
+| ----- | ---------- | ---------- | ------ |
+| 12/16 | 7          | 8          | 10     |
+
 ## **A**
 
 **upsolved by **

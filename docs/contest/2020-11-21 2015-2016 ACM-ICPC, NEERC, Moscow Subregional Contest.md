@@ -1,5 +1,9 @@
 # [2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest](https://codeforces.com/gym/100792)
 
+| 排名   | 当场过题数 | 至今过题数 | 总题数 |
+| ------ | ---------- | ---------- | ------ |
+| 98/717 | 7          | ?          | 12     |
+
 ## **A**
 
 **upsolved by **

@@ -1,5 +1,9 @@
 # [2016-2017 ACM-ICPC, NEERC, Southern Subregional Contest](https://codeforc.es/contest/730)
 
+| 排名 | 当场过题数 | 至今过题数 | 总题数 |
+| ---- | ---------- | ---------- | ------ |
+| 31/? | 7          | 9          | 10     |
+
 ## **A**
 
 **solved by 2sozx**

@@ -55,14 +55,14 @@ nav:
   - 首页: index.md
   - 比赛记录: 
     - 比赛模板: contest/template.md
-    - 2020.05.10 SEERC 2016: contest/2020-05-10 SEERC2016.md
-    - 2020.05.17 2017-2018 NEERC Moscow: contest/2020-05-17 2017-2018 NEERC Moscow.md
-    - 2020.05.24 2009-2010 NEERC Western: contest/2020-05-24 2009-2010 NEERC Western.md
+    - 2020.05.10 SEERC 2016 D: contest/2020-05-10 SEERC2016.md
+    - 2020.05.17 2017-2018 NEERC Moscow D: contest/2020-05-17 2017-2018 NEERC Moscow.md
+    - 2020.05.24 2009-2010 NEERC Western D: contest/2020-05-24 2009-2010 NEERC Western.md
     - 2020.07.12 2020牛客暑期多校第一场: contest/2020-07-12 2020牛客暑期多校第一场.md
     - 2020.07.13 2020牛客暑期多校第二场: contest/2020-07-13 2020牛客暑期多校第二场.md
     - 2020.07.18 2020牛客暑期多校第三场: contest/2020-07-18 2020牛客暑期多校第三场.md
     - 2020.07.20 2020牛客暑期多校第四场: contest/2020-07-20 2020牛客暑期多校第四场.md
-    - 2020.07.22 2020HDU暑期多校第一场: contest/2020-07-22 2020HDU暑期多校第一场.md
+    - 2020.07.22 2020HDU暑期多校第一场 : contest/2020-07-22 2020HDU暑期多校第一场.md
     - 2020.07.23 2020-2021 BUAA Training 01: contest/2020-07-23 2020-2021 BUAA ICPC Team Supplementary Training 01.md
     - 2020.07.25 2020牛客暑期多校第五场: contest/2020-07-25 2020牛客暑期多校第五场.md
     - 2020.07.20 2020牛客暑期多校第六场: contest/2020-07-27 2020牛客暑期多校第六场.md
@@ -70,23 +70,23 @@ nav:
     - 2020.08.01 2020牛客暑期多校第七场: contest/2020-08-01 2020牛客暑期多校第七场.md
     - 2020.08.03 2020牛客暑期多校第八场: contest/2020-08-03 2020牛客暑期多校第八场.md
     - 2020-08-06 2020-2021 BUAA Training 02: contest/2020-08-06 2020-2021 BUAA ICPC Team Supplementary Training 02.md
-    - 2020-08-08 2020牛客暑期多校第九场: contest/2020-08-08 2020牛客暑期多校第九场.md
-    - 2020-08-10 2020牛客暑期多校第十场: contest/2020-08-10 2020牛客暑期多校第十场.md
-    - 2020-08-13 2020HDU暑期多校第六场: contest/2020-08-13 2020HDU暑期多校第六场.md
-    - 2020-08-20 2020HDU暑期多校第七场: contest/2020-08-20 2020HDU暑期多校第七场.md
-    - 2020-09-13 2016 CCPC 长春站: contest/2020-09-13 2016 CCPC 长春站.md
-    - 2020-09-19 2020-2021 BUAA Training 03: contest/2020-09-19 2020-2021 BUAA ICPC Team Supplementary Training 03.md
-    - 2020-09-20 2020 CCPC 网络赛: contest/2020-09-20 2020 CCPC 网络赛.md
-    - 2020-09-26 2020-2021 BUAA Training 04: contest/2020-09-26 2020-2021 BUAA ICPC Team Supplementary Training 04.md
-    - 2020-09-27 2020-2021 BUAA Training 05: contest/2020-09-27 2020-2021 BUAA ICPC Team Supplementary Training 05.md
-    - 2020-10-04 2016-2017 NEERC Southern: contest/2020-10-04 2016-2017 ACM-ICPC, NEERC, Southern Subregional Contest.md
-    - 2020-10-07 2016 CCPC 合肥站: contest/2020-10-07 2016 CCPC 合肥站.md
-    - 2020-10-10 2016 ICPC 沈阳站: contest/2020-10-10 2016 ICPC 沈阳站.md
-    - 2020-11-18 2015 ICPC 上海站: contest/2020-11-18 2015 ICPC 上海站.md
-    - 2020-11-21 2015-2016 NEERC Moscowt: contest/2020-11-21 2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest.md
-    - 2020-12-05 CCPC 2020 长春站: contest/2020-12-05 CCPC 2020 长春站.md
-    - 2020-12-09 CCPC 2020 绵阳站: contest/2020-12-09 CCPC 2020 绵阳站.md
-    - 2020-12-13 2020 ICPC 上海站: contest/2020-12-13 2020 ICPC 上海站.md
+    - 2020-08-08 2020牛客暑期多校第九场 U: contest/2020-08-08 2020牛客暑期多校第九场.md
+    - 2020-08-10 2020牛客暑期多校第十场 U: contest/2020-08-10 2020牛客暑期多校第十场.md
+    - 2020-08-13 2020HDU暑期多校第六场 U: contest/2020-08-13 2020HDU暑期多校第六场.md
+    - 2020-08-20 2020HDU暑期多校第七场 U: contest/2020-08-20 2020HDU暑期多校第七场.md
+    - 2020-09-13 2016 CCPC 长春站 U: contest/2020-09-13 2016 CCPC 长春站.md
+    - 2020-09-19 2020-2021 BUAA Training 03 U: contest/2020-09-19 2020-2021 BUAA ICPC Team Supplementary Training 03.md
+    - 2020-09-20 2020 CCPC 网络赛 U: contest/2020-09-20 2020 CCPC 网络赛.md
+    - 2020-09-26 2020-2021 BUAA Training 04 U: contest/2020-09-26 2020-2021 BUAA ICPC Team Supplementary Training 04.md
+    - 2020-09-27 2020-2021 BUAA Training 05 U: contest/2020-09-27 2020-2021 BUAA ICPC Team Supplementary Training 05.md
+    - 2020-10-04 2016-2017 NEERC Southern U: contest/2020-10-04 2016-2017 ACM-ICPC, NEERC, Southern Subregional Contest.md
+    - 2020-10-07 2016 CCPC 合肥站 U: contest/2020-10-07 2016 CCPC 合肥站.md
+    - 2020-10-10 2016 ICPC 沈阳站 U: contest/2020-10-10 2016 ICPC 沈阳站.md
+    - 2020-11-18 2015 ICPC 上海站 U: contest/2020-11-18 2015 ICPC 上海站.md
+    - 2020-11-21 2015-2016 NEERC Moscow U: contest/2020-11-21 2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest.md
+    - 2020-12-05 CCPC 2020 长春站 U: contest/2020-12-05 CCPC 2020 长春站.md
+    - 2020-12-09 CCPC 2020 绵阳站 U: contest/2020-12-09 CCPC 2020 绵阳站.md
+    - 2020-12-13 2020 ICPC 上海站 U: contest/2020-12-13 2020 ICPC 上海站.md
     - 2020.12.16 XIX SPb Div1: contest/2020-12-16 XIX SPb Div1.md
   - 2sozx: 
     - 个人首页: 2sozx/index.md

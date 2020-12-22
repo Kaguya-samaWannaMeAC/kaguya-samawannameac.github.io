@@ -1,5 +1,9 @@
 # [2020-2021 BUAA ICPC Team Supplementary Training 01](https://codeforces.com/group/azDPdoF24f/contest/288496)
 
+| 排名 | 当场过题数 | 至今过题数 | 总题数 |
+| ---- | ---------- | ---------- | ------ |
+| 5/19 | 6          | 7          | 11     |
+
 ## **A**
 
 **upsolved by JJLeo**
