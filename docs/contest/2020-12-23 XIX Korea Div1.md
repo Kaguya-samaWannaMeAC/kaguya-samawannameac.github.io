@@ -150,7 +150,7 @@
 
 ## **M**
 
-**solved by 2sozx**
+**solved by **
 
 ### 题意
 
