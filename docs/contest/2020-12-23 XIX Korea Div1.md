@@ -34,15 +34,39 @@
 
 ## **C**
 
-**upsolved by **
+**upsolved by JJLeo **
 
 ### 题意
 
-
+$n$ 个人排成一列，`L` 型人会往左走，`R` 型人会往右走，不同类型的人相遇会有 $p$ 的概率 `R` 型人消失，$1-p$ 的概率 `L` 型人消失，问最后有 $A$ 个 `L` 型人走到最左侧，$B$ 个 `R` 型人走到最右侧的概率。($1 \le n \le 5000$)
 
 ### 题解
 
+对于任意一种情况，一定存在一个唯一的 $i$ ($0 \le i \le n$) 满足 $[1,i]$ 中没有 `R` 型人走到右边，$[i+1,n]$ 没有 `L` 型人走到左边，此时显然有 $i$ 号人是 `L` 型人，$i+1$ 号人是 `R` 型人。
 
+设 $f_{i,j}$ 为 $[1,i]$ 中没有 `R` 型人走到右边，且 $[i+1,n]$ 还需要有 $j$ 个 `L` 型人走到左边的概率。初始状态为 $f_{0,A} = 1$，则有：
+$$
+f_{i,j} = 
+\begin{cases}
+f_{i-1,j+1}, &a_i = \text{L} \newline
+p \cdot f_{i-1,j}+(1-p) \cdot f_{i,j-1}, &a_i = \text{R} \land j \ne 0 \newline
+0, &a_i = \text{R} \land j = 0
+\end{cases}
+$$
+设 $g_{i,j}$ 为 $[i,n]$ 中没有 `L` 型人走到左边，且 $[1,i-1]$ 还需要有 $j$ 个 `R` 型人走到右边的概率。初始状态为 $g_{n+1,B} = 1$，则有：
+$$
+g_{i,j} = 
+\begin{cases}
+g_{i+1,j+1}, &a_i = \text{R} \newline
+(1-p) \cdot g_{i+1,j}+p \cdot g_{i,j-1}, &a_i = \text{L} \land j \ne 0 \newline
+0, &a_i = \text{L} \land j = 0
+\end{cases}
+$$
+最终答案即为：
+$$
+\sum_{i=0}^nf_{i,0}g_{i+1,0}
+$$
+时间复杂度 $O(n^2)$。
 
 ## **D**
 
@@ -58,7 +82,7 @@
 
 ## **E**
 
-**upsolved by **
+**solved by Bazoka13 2sozx**
 
 ### 题意
 
@@ -70,43 +94,50 @@
 
 ## **F**
 
-**upsolved by **
+**solved by JJLeo**
 
 ### 题意
 
-
+使用指针存储二叉树，最多使用不超过 $125$ 个全局指针，每个指针对应一棵二叉树的根节点，每个分支节点的两个儿子可以指向任意一个其它的全局指针或是空指针。要求所有全局指针对应的树的两个叶子节点个数要么相等，要么左子树叶子节点个数恰好比右子树大 $1$。构造一种方案使得存在一个全局指针对应的二叉树叶子节点个数为 $n$。($1 \le n \le 10^{18}$)
 
 ### 题解
 
-
+递归构造，如果 $n$ 是偶数，直接构造叶子节点数为 $\dfrac{n}{2}$ 的子树，并将两个儿子都连到该指针；否则构造左子树为叶子节点数为 $\dfrac{n-1}{2} + 1$ ，右子树为叶子节点数为 $\dfrac{n-1}{2}$。开一个 map 记录大小相同的子树的指针编号，以便复用，保证不同的全局指针数不超过 $125$。
 
 ## **G**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
-
+有 $n$ 个路灯，点亮第 $i$ 个路灯需要花费 $a_i$，每个灯可以照亮自己和相邻的两个路灯，你可以交换至多 $m$ 次任意两个路灯，要求最终所有路灯都被照亮的最小花费。($1 \le n \le 250000$，$0 \le m \le 9$)
 
 ### 题解
 
+直接交换很难处理，可以将其转化为选择 $i$ ($i \le m$) 个本来要点亮的路灯，但是不付费用，再选择 $i$ 个本来不点亮的路灯，将费用补上。
 
+设 $f_{i,j,k}$ 为前 $i$ 个灯都被照亮，且有 $j$ 个点亮灯没付费，$k$ 个不点亮的灯额外付费的最小花费。直接分类讨论转移即可，需要特别注意一下边界的情况，比如点亮第 $i+1$ 个灯，可以从 $f_{i,\times,\times}$ 转移到 $f_{i+2,\times,\times}$，但是这样会被边界卡住，可以假装 $i+2$ 这个灯不存在，同时也转移到 $f_{i+1\times,\times}$。
+
+时间复杂度为 $O(nk^2)$。
 
 ## **H**
 
-**upsolved by **
+**solved by JJLeo**
 
 ### 题意
 
-
+求有多少对 $(i,j)$ 满足 $A \le i \le B,C \le j \le D$，且 $\dfrac{i}{j}$ 约分后分子分母之和小于 $1000$。($1 \le A \le B \le 10^{18}$，$1 \le C \le D \le 10^{18}$)
 
 ### 题解
 
-
+即求：
+$$
+\sum_{i=1}^{999}\sum_{j=1}^{999-i}[\gcd(i,j)=1]\left|\left[\lceil \frac{A}{i} \rceil,\lfloor \frac{B}{i} \rfloor\right] \cap \left[\lceil \frac{C}{i} \rceil,\lfloor \frac{D}{i} \rfloor\right] \cap \mathbf{N}^*\right|
+$$
 
 ## **I**
 
-**upsolved by **
+**solved by Bazoka13 2sozx**
 
 ### 题意
 
@@ -118,19 +149,27 @@
 
 ## **J**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
-
+给出一个直方图，第 $i$ 个块的高度为 $a_i$，对任意 $1 \le i \le j \le n$，点对 $(i,j)$ 对应的块构成的矩形面积定义为：
+$$
+(j-i+1)\min_{k=i}^ja_k
+$$
+求所有 $\dfrac{n(n+1)}{2}$ 个点对应的块构成的矩形面积从小到大排序后，第 $L,L+1,\cdots,R$ 个数分别是什么。($1 \le n,R - L + 1 \le 3 \times {10}^5$)
 
 ### 题解
 
+先用单调栈求出第 $i$ 个块往左第一个**不**低于它的位置 $x$，记 $l_i=x+1$，如果不存在这样的位置记 $l_i=1$。
 
+再用单调栈求出第 $i$ 个块往右第一个低于它的位置 $y$，记 $r_i=y-1$，如果不存在这样的位置记 $r_i=n$。
+
+可以发现任意一个边界为 $[l,r]$ 的矩形恰好属于一个 $i$，且 $[l,r] \subseteq [l_i,r_i],\min\limits _{k=l}^ra_k = a_i$，如果属于多个 $i$ 
 
 ## **K**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
@@ -154,7 +193,7 @@
 
 ## **M**
 
-**solved by **
+**solved by JJLeo**
 
 ### 题意
 
@@ -167,8 +206,6 @@
 ## **记录**
 
 0min：分题<br>?min：MJX看B很水但是不好写先看别的题<br>?min：看I签到MJX去写，写挂了，ZYF冲H<br>29min：ZYF AC，MJX写L，CSK推I<br>67min：MJX AC，CSK冲I<br>93min：CSK AC，ZYF先冲B<br>?min：想到了F，ZYF冲F<br>?min：WA F，ZYF冲B<br>142min：ZYF AC，拿到B一血，发现F题读错了<br>149min：ZYF AC，猜E结论<br>211min：CSK猜结论冲E，AC，ZYF冲M，MJX CSK猜D结论<br>256min：ZYF WA on46，MJX不知道咋做的猜二分范围小了，猜对了，AC<br>292min：MJX WA4 后AC<br>till end：拿了一血就很帅，不亏
-
-
 
 ## **总结**
 
