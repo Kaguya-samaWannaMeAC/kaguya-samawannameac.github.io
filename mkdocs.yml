@@ -1,7 +1,23 @@
+# Project information
 site_name: Kaguya-samaWannaMeAC-Wiki
+site_url: https://kaguya-samawannameac.github.io/
+site_author: Kaguya-samaWannaMeAC
 
-# repo_name: 'Kaguya-samaWannaMeAC'
-# repo_url: 'https://github.com/Kaguya-samaWannaMeAC/Kaguya-samaWannaMeAC-Wiki'
+# Repository
+repo_name: Kaguya-samaWannaMeAC
+repo_url: https://github.com/kaguya-samawannameac/kaguya-samawannameac.github.io
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2020 - 2021 Kaguya-samaWannaMeAC
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kaguya-samawannameac
+    - icon: fontawesome/brands/qq
+      link: https://codeforces.com
 
 theme:
   name: material
@@ -13,6 +29,7 @@ theme:
   language: 'zh'
   favicon: 'https://cdn.jsdelivr.net/npm/oicdn@0.0.1/favicon.ico'
   logo: 'https://cdn.jsdelivr.net/npm/oicdn@0.0.1/favicon.ico'
+  
 
 markdown_extensions:
   - admonition
@@ -101,6 +118,6 @@ nav:
   - JJLeo: 
     - 个人首页: JJLeo/index.md
     - 2020-12-13~2021-01-13: JJLeo/2020-12-13~2021-01-13.md
-  - CF contest pre:
-    - solution: contest pre/E2-hard-solution.md
+  - 杂项:
+    - E2-hard-solution: 杂项/E2-hard-solution.md
   
