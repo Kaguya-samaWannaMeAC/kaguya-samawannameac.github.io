@@ -1,1 +1,1 @@
-[传送门](https://bazoka13.github.io/)
+[博客传送门](https://bazoka13.github.io/)
