@@ -2,7 +2,7 @@
 2020-09-20 2020 CCPC 网络赛 G Bazoka13 L M JJLeo
 2020-09-26 2020-2021 BUAA ICPC Team Supplementary Training 04 P Z V W X JJLeo S T U Bazoka13
 2020-10-04 2016-2017 ACM-ICPC, NEERC, Southern Subregional Contest C 2sozx D F I J K JJLeo E G H Bazoka13
-2020-12-09 2020 CCPC 绵阳站 K 2sozx C E J L G JJLeo H Bazoka13
+2020-12-09 2020 CCPC 绵阳站 K 2sozx C E J L G JJLeo H Bazoka13 B 可补
 2020-12-13 2020 ICPC 上海站 C D JJLeo E H L 2sozx I Bazoka13 F K 可补
 2020-12-16 XIX SPb Div1 C zzh 题解
 2020-12-30 2020 ICPC 南京 D I JJLeo E Bazoka13
