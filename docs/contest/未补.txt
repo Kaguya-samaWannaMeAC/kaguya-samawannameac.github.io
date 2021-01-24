@@ -9,3 +9,27 @@
 2020-12-30 2020 ICPC 南京 D I JJLeo E Bazoka13
 2021-01-15 2020 ICPC 济南 A 2sozx G Bazoka13 J JJLeo
 2021-01-20 MIPTCamp 2016 National Taiwan U Contest A 2sozx E H I J JJLeo 
+
+
+2016 CCPC 合肥站 A JJLeo 补充正解
+2016 CCPC 合肥站 D Bazoka13
+2016 CCPC 合肥站 E Bazoka13
+2016 CCPC 合肥站 G JJLeo
+2016 CCPC 合肥站 I 2sozx
+
+2016 ICPC 沈阳站 H JJLeo
+
+2015 ICPC 上海站 F Bazoka13
+2015 ICPC 上海站 K JJLeo
+2015 ICPC 上海站 L 2sozx
+2015 ICPC 上海站 B JJLeo
+2015 ICPC 上海站 A Bazoka13
+2015 ICPC 上海站 D JJLeo
+2015 ICPC 上海站 I 2sozx
+
+2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest A Bazoka13
+2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest C JJLeo
+2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest D 2sozx
+2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest G Bazoka13
+2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest H JJLeo
+2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest K 2sozx
