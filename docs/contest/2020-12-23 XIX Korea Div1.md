@@ -1,4 +1,4 @@
-# [XIX Open Cup named after E.V. Pankratiev. Grand Prix of Korea](https://codeforc.es/)
+# [XIX Open Cup named after E.V. Pankratiev. Grand Prix of Korea](http://opentrains.snarknews.info/~ejudge/team.cgi?SID=69984cfd7f35e966&action=2&lt=1)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |
 | ------ | ---------- | ---------- | ------ |

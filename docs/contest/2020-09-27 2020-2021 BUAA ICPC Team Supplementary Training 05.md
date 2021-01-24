@@ -1,4 +1,4 @@
-# [2020-2021 BUAA ICPC Team Supplementary Training 05](https://codeforc.es/)
+# [2020-2021 BUAA ICPC Team Supplementary Training 05](https://codeforc.es/group/azDPdoF24f/contest/296662)
 
 | 排名  | 当场过题数 | 至今过题数 | 总题数 |
 | ----- | ---------- | ---------- | ------ |
