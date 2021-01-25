@@ -30,27 +30,27 @@
 
 ## **C**
 
-**upsolved by **
+**solved by 2sozx**
 
 ### 题意
 
-
+签到
 
 ### 题解
 
-
+签到
 
 ## **D**
 
-**upsolved by **
+**solved by 2sozx**
 
 ### 题意
 
-
+签到
 
 ### 题解
 
-
+签到
 
 ## **E**
 
@@ -66,15 +66,15 @@
 
 ## **F**
 
-**upsolved by **
+**solved by JJLeo**
 
 ### 题意
 
-
+签到
 
 ### 题解
 
-
+签到
 
 ## **G**
 
