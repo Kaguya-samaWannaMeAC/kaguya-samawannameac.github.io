@@ -1,20 +1,20 @@
-# [Namomo Winter Camp 1](https://vjudge.net/contest/419865)
+# [Namomo Winter Camp 2](https://vjudge.net/contest/419997)
 
 | 排名 | 当场过题数 | 至今过题数 | 总题数 |
 | ---- | ---------- | ---------- | ------ |
-| 2/68 | 10         | 10         | 15     |
+|      | 9          | 10         | 12     |
 
 ## **A**
 
-**upsolved by **
+**solved by 2sozx**
 
 ### 题意
 
-
+大模拟
 
 ### 题解
 
-
+大模拟
 
 ## **B**
 
@@ -54,55 +54,55 @@
 
 ## **E**
 
-**solved by JJLeo**
+**solved by **
 
 ### 题意
 
-签到
+
 
 ### 题解
 
-签到
+
 
 ## **F**
 
-**solved by Bazoka13**
+**solved by **
 
 ### 题意
 
-签到
+
 
 ### 题解
 
-签到
+
 
 ## **G**
 
-**solved by Bazoka13**
+**solved by **
 
 ### 题意
 
-签到
+
 
 ### 题解
 
-签到
+
 
 ## **H**
 
-**solved by 2sozx**
+**solved by **
 
 ### 题意
 
-签到
+
 
 ### 题解
 
-签到
+
 
 ## **I**
 
-**solved by Bazoka13**
+**solved by **
 
 ### 题意
 
@@ -126,7 +126,7 @@
 
 ## **K**
 
-**solved by Bazoka13**
+**solved by **
 
 ### 题意
 
@@ -138,43 +138,7 @@
 
 ## **L**
 
-**solved by JJLeo**
-
-### 题意
-
-签到
-
-### 题解
-
-签到
-
-## **M**
-
-**upsolved by **
-
-### 题意
-
-
-
-### 题解
-
-
-
-## **N**
-
-**solved by JJLeo**
-
-### 题意
-
-模板题
-
-### 题解
-
-模板题
-
-## **O**
-
-**upsolved by **
+**solved by **
 
 ### 题意
 
