@@ -9,7 +9,6 @@
 2020-12-16 XIX SPb Div1 C zzh 题解
 2020-12-30 2020 ICPC E Bazoka13
 2021-01-15 2020 ICPC 济南 G J Bazoka13
-2021-01-20 MIPTCamp 2016 National Taiwan U Contest E H I J JJLeo 
 
 
 2016 CCPC 合肥站 A JJLeo 补充正解
