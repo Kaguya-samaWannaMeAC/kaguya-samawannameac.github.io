@@ -56,15 +56,34 @@
 
 ## **E**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
+$T$ 组数据，给定 $n,m$ 求有多少点对 $(r,s)(r \le s)$ 满足如下四条性质：
 
+- $\gcd(r,s) = 1$
+- $r \equiv s \pmod 2$
+- $r+s \le \min(n,m)$
+- $s \le \lfloor\frac{\max(n,m)}{2}\rfloor$
+
+($1 \le T \le 5000$，$1 \le n,m \le 5000$)
 
 ### 题解
 
+$f(n,m)$ 表示 $n \times m$ 的棋盘，满足除了 $\gcd(r,s) = 1$ 的其它三条性质的 $(r,s)$ 数量。
 
+手写几个可以发现对于固定的 $n,m(n \le m)$，当 $r=1,2,3, \cdots, \lfloor\frac{\max(n,m)}{2}\rfloor$ 时，方案数形如 
+$$
+0,1,1,2,2,3,2,2,1,1,0
+$$
+上面是 $n=11,m=22$ 的例子，其它当奇偶不同时中间会略有变化，可以 $O(1)$ 求解。
+
+到这里都会，然后最终答案为
+$$
+\sum_{d=1}^{\min(n,m)}\mu(d)f\left(\lfloor\frac{n}{d}\rfloor,\lfloor\frac{m}{d}\rfloor\right)[d \bmod 2 = 1]
+$$
+我只想知道为啥。
 
 ## **F**
 
@@ -94,15 +113,17 @@ $F_n$代表斐波那契序列第 $n$ 项，求 $F_{F_n}$ mod 20160519 ($1\leq n\
 
 ## **H**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
-
+字符集为所有大写字母，给定哈希模数 $M$ 和底数 $p$，上述两者为质数，问所有长度为 $n$ 的字符串有多少对串的哈希值相同。($1 \le n \le 10^6$，$2 \le p \le m \le 30000$)
 
 ### 题解
 
+FFT + 快速幂，每次变换相当于左边的乘以一个 $p^n$ 再和右边卷，然后再把同余的加到一起即可。时间复杂度为 $O(m \log m \log n)$。
 
+直接裸 FFT 精度会裂开，只需要四次的 MTT NB！三模 NTT 爬！
 
 ## **I**
 
