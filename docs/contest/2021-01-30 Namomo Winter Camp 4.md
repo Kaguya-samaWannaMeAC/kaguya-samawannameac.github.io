@@ -18,7 +18,7 @@
 
 ## **B**
 
-**upsolved by **
+**solved by JJLeo**
 
 ### 题意
 
@@ -90,7 +90,7 @@
 
 ## **H**
 
-**upsolved by **
+**solved by 2sozx JJLeo**
 
 ### 题意
 
@@ -123,28 +123,6 @@
 ### 题解
 
 
-
-## **K**
-
-**upsolved by **
-
-### 题意
-
-
-
-### 题解
-
-
-
-## **L**
-
-**upsolved by **
-
-### 题意
-
-
-
-### 题解
 
 
 

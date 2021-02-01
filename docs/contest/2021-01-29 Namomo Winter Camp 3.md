@@ -30,7 +30,7 @@
 
 ## **C**
 
-**upsolved by **
+**solved by 2sozx JJLeo**
 
 ### 题意
 
@@ -42,7 +42,7 @@
 
 ## **D**
 
-**upsolved by **
+**solved by JJLeo**
 
 ### 题意
 
@@ -54,7 +54,7 @@
 
 ## **E**
 
-**upsolved by **
+**solved by JJLeo**
 
 ### 题意
 
@@ -102,7 +102,7 @@
 
 ## **I**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
@@ -114,7 +114,7 @@
 
 ## **J**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
@@ -126,19 +126,7 @@
 
 ## **K**
 
-**upsolved by **
-
-### 题意
-
-
-
-### 题解
-
-
-
-## **L**
-
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
