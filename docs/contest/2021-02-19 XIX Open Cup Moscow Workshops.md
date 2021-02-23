@@ -24,11 +24,11 @@
 
 ### 题意
 
-
+给定一个完全积性函数，让你给 $f(p)$ 赋值 $\pm1$ ，使得 $\max \limits_{i = 1}^{10^6}|\sum\limits_{j = 1}^i f(j)| \le 20$ ，输出 $1\sim10^6$ 所有的 $f(i)$
 
 ### 题解
 
-
+一顿乱猜，考虑每个质数大概可能的贡献，最后得出$f(p) = \begin{cases}1\quad p \% 6 == 1 \and p\not = 37 \\ -1 \quad p = others\end{cases} $ 
 
 ## **C**
 
