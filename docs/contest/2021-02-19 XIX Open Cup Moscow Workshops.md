@@ -24,11 +24,11 @@
 
 ### 题意
 
-
+给定一个完全积性函数，让你给 $f(p)$ 赋值 $\pm1$ ，使得 $\max \limits_{i = 1}^{10^6}|\sum\limits_{j = 1}^i f(j)| \le 20$ ，输出 $1\sim10^6$ 所有的 $f(i)$
 
 ### 题解
 
-
+一顿乱猜，考虑每个质数大概可能的贡献，最后得出$f(p) = \begin{cases}1\quad p \% 6 == 1 \and p\not = 37 \\ -1 \quad p = others\end{cases} $ 
 
 ## **C**
 
@@ -128,9 +128,25 @@
 
 
 
+## **K**
+
+**solved by JJLeo**
+
+### 题意
+
+
+
+### 题解
+
+
+
 ## **记录**
 
+~~久违的记录回来了~~
 
+假期第一场训练
+
+0min：分题，CSK冲G<br>12min：CSK 少考虑情况WA1后AC, ZYF冲K<br>21min：ZYF AC,MJX 去乱搞B<br>83min：MJX 突然想出了I，ZYF冲I，数组开小RE1，后AC<br>102min：CSK AC J，MJX 奇奇怪怪的构造出了B冲B<br>104min：B读题错误导致输入遗漏PE3，后AC<br>204min：ZYF AC D<br>221min：判断时少判断点+测试测评机导致PE10 WA1 T1，后AC<br>?min：CSK 盲猜A题题意MJX冲<br>323min：MJX 点分树挂了WA1,ZYF改写法后AC<br>339min：ZYF发现F是模板AC<br>till end：想到了C的大概写法，但是没AC<br>after end：C细节很多
 
 ## **总结**
 
