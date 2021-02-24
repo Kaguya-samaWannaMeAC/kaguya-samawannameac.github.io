@@ -62,28 +62,47 @@
 
 $T$ 组数据，给定 $n,m$ 求有多少点对 $(r,s)(r \le s)$ 满足如下四条性质：
 
-- $\gcd(r,s) = 1$
-- $r \equiv s \pmod 2$
-- $r+s \le \min(n,m)$
-- $s \le \lfloor\frac{\max(n,m)}{2}\rfloor$
+- $\gcd(r,s) = 1$。
+- $r \not \equiv s \pmod 2$。
+- $r+s \le \min(n,m)$。
+- $s \le \lfloor\dfrac{\max(n,m)}{2}\rfloor$。
 
-($1 \le T \le 5000$，$1 \le n,m \le 5000$)
+($1 \le T \le 5000$，$1 \le n,m \le {10}^7$)
 
 ### 题解
 
 $f(n,m)$ 表示 $n \times m$ 的棋盘，满足除了 $\gcd(r,s) = 1$ 的其它三条性质的 $(r,s)$ 数量。
 
-手写几个可以发现对于固定的 $n,m(n \le m)$，当 $r=1,2,3, \cdots, \lfloor\frac{\max(n,m)}{2}\rfloor$ 时，方案数形如 
+手写几个可以发现对于固定的 $n,m(n \le m)$，当 $r=1,2,3, \cdots, \lfloor\dfrac{\max(n,m)}{2}\rfloor$ 时，方案数形如：
 $$
 0,1,1,2,2,3,2,2,1,1,0
 $$
 上面是 $n=11,m=22$ 的例子，其它当奇偶不同时中间会略有变化，可以 $O(1)$ 求解。
 
-到这里都会，然后最终答案为
+到这里都会，然后最终答案为：
 $$
 \sum_{d=1}^{\min(n,m)}\mu(d)f\left(\lfloor\frac{n}{d}\rfloor,\lfloor\frac{m}{d}\rfloor\right)[d \bmod 2 = 1]
 $$
 我只想知道为啥。
+
+2021.02.24 update，我终于知道为啥了：
+
+设 $g(r,s)$ 为 $n \times m$ 的棋盘，点对 $(r,s)$ 不考虑 $\gcd(r,s)=1$ 是否合法，合法为 $1$，否则为 $0$。
+
+则所求即为：
+$$
+\begin{aligned}
+&\sum_{i=1}^n\sum_{j=1}^mg(i,j)[\gcd(i,j)=1] \newline
+=& \sum_{i=1}^n\sum_{j=1}^mg(i,j)\sum_{d \mid \gcd(i,j)} \mu(d) \newline
+=& \sum_{d=1}^{\min(n,m)}\mu(d)\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac{m}{d}\rfloor}g(id,jd)
+
+\end{aligned}
+$$
+注意到，如果 $d$ 为偶数，则 $id \equiv jd \pmod 2$，必然有 $g(id,jd)=0$；否则 $(id,jd)$ 在 $n \times m$ 的棋盘中合法（不考虑互质），等价于 $(i,j)$ 在  $\lfloor\dfrac{n}{d}\rfloor \times \lfloor\dfrac{m}{d}\rfloor$ 的棋盘中合法，因为剩下两条限制都满足整除的条件。从而有：
+$$
+\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac{m}{d}\rfloor}g(id,jd)=f\left(\lfloor\frac{n}{d}\rfloor,\lfloor\frac{m}{d}\rfloor\right)[d \bmod 2 = 1]
+$$
+这就转化为了上面最终的式子，利用整除分块，时间复杂度为 $O(T\sqrt n)$。
 
 ## **F**
 
