@@ -146,7 +146,7 @@
 
 假期第一场训练
 
-0min：分题，CSK冲G<br>12min：CSK 少考虑情况WA1后AC, ZYF冲K<br>21min：ZYF AC,MJX 去乱搞B<br>83min：MJX 突然想出了I，ZYF冲I，数组开小RE1，后AC<br>102min：CSK AC J，MJX 奇奇怪怪的构造出了B冲B<br>104min：B读题错误导致输入遗漏PE3，后AC<br>204min：ZYF AC D<br>221min：判断时少判断点+测试测评机导致PE10 WA1 T1，后AC<br>?min：CSK 盲猜A题题意MJX冲<br>323min：MJX 点分树挂了WA1,ZYF改写法后AC<br>339min：ZYF发现F是模板AC<br>till end：想到了C的大概写法，但是没AC<br>after end：C细节很多
+0min：分题，CSK冲G<br>12min：CSK 少考虑情况WA1后AC, ZYF冲K<br>21min：ZYF AC,MJX 去乱搞B<br>83min：MJX 突然想出了I，ZYF冲I，数组开小RE1，后AC<br>102min：CSK AC J，MJX 奇奇怪怪的构造出了B冲B<br>104min：B读题错误导致输入遗漏PE3，后AC<br>204min：ZYF AC D<br>221min：判断时少判断点+测试测评机导致PE10 WA1 T1，后AC<br>?min：CSK 盲猜A题题意MJX冲<br>243min：MJX 点分树挂了WA1,ZYF改写法后AC<br>259min：ZYF发现F是模板AC<br>till end：想到了C的大概写法，但是没AC<br>after end：C细节很多
 
 ## **总结**
 
