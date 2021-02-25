@@ -25,7 +25,8 @@ theme:
     primary: 'White'
     accent: 'Pink'
   features:
-    - tabs
+    - navigation.tabs
+    - toc.integrate
   language: 'zh'
   favicon: 'https://cdn.jsdelivr.net/npm/oicdn@0.0.1/favicon.ico'
   icon:
