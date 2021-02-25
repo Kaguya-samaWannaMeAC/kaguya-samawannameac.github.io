@@ -164,15 +164,52 @@ $$
 
 ## **L**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
-
+一共有 $n$ 天，一个懒学生知识掌握程度是一个 $[0,1]$ 的实数，每天可以在之前的基础上学习任意多的量，之后这天会进行考试，通过率为他的知识掌握程度，求他最终能通过考试的前提下知识掌握程度的最小期望值，输出期望化为最简分数后在模 ${10}^9+7$ 意义下的分子和分母。($1 \le n \le 10^{18}$)
 
 ### 题解
 
+设 $f_k(x)$ 是还剩 $k$ 轮，之前已经复习了 $x$ 内容的最小期望复习内容，则有：
 
+$$
+f_k(x) = 
+\begin{cases}
+1,&k=1 \newline
+\min \limits _{x \le y \le 1} \left(x^2+\left(1-x\right)f_{k-1}(y)\right), &k > 1
+\end{cases}
+$$
+
+记  $g(k)=\min \limits _{0 \le y \le 1} f_k(y)$ 。
+
+当 $k > 1$ 时，$f_k(x)$ 最小值在 $x = \dfrac{1}{2}g(k-1)$ 处取到，为 $f_k\left(\dfrac{1}{2}g(k-1)\right) = g(k-1) - \dfrac{g^2(k-1)}{4}$，且 下面用数学归纳法证明：
+
+> 当 $k=2$ 时，$f_k(1)$ 恒为 $1$，显然当 $x = \dfrac{1}{2}g(1) = \dfrac{1}{2}$ 时取得最小值 $f_2(\dfrac{1}{2})=\dfrac{4}{3}$。
+>
+> 当 $k > 2$ 时，假设 $f_k(x)$ 最小值在 $x = \dfrac{1}{2}g(k-1)$ 处取到，则有：
+>
+> $$
+> \begin{aligned}
+> f_{k+1}(x)=& \min \limits _{x \le y \le 1} \left(x^2+\left(1-x\right)f_k(y)\right) \newline
+> \ge&\min \limits _{0 \le y \le 1} \left(x^2+\left(1-x\right)f_k(y)\right) \newline
+> \ge& \min \limits _{0 \le y \le 1} \left(x^2+\left(1-x\right)\left(\min \limits _{0 \le y \le 1} f_k(y)\right)\right) \newline
+> =& \min \limits _{0 \le y \le 1} \left(x^2+\left(1-x\right)g(k)\right)
+> \end{aligned}
+> $$
+>
+> 当 $x=\dfrac{1}{2}g(k)$ 时，上式有最小值 $g(k) - \dfrac{g^2(k)}{4}$，且有：
+>
+> $$
+> \dfrac{1}{2}g(k)=\dfrac{1}{2}g(k-1) - \dfrac{g^2(k-1)}{8} \le \dfrac{1}{2}g(k-1) \le 1
+> $$
+>
+> 因此 $f_{k+1}(x)$ 最小值在 $x=\dfrac{1}{2}g(k)$ 处取到，为 $f_{k+1}\left(\dfrac{1}{2}g(k)\right) = g(k) - \dfrac{g^2(k)}{4}$。
+
+我们所求的答案即为 $g(n)$，有递推式 $g(n+1) = g(n) - \dfrac{g^2(n)}{4}$，在模 $10^9+7$ 意义下是有循环节的。
+
+但题目还要我们求分子分母，设 $g(n)=\dfrac{a(n)}{b(n)}$，其中 $\gcd\left(a(n),b(n)\right)=1$，初始时 $a(n)=b(n)=1$，则根据上述递推式有 $g(n+1) = \dfrac{4a(n)b(n)-a^2(n)}{4b^2(n)}$，分母永远是 $2$ 的次幂，分子永远是奇数，因此必然互质，从而分母递推式即为 $b(n+1)=4b^2(n)$，同样是有循环节的，因此再将其乘以 $g(n)$ 即可得到分子。
 
 ## **记录**
 
