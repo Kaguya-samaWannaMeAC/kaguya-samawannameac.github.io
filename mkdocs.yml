@@ -28,7 +28,11 @@ theme:
     - tabs
   language: 'zh'
   favicon: 'https://cdn.jsdelivr.net/npm/oicdn@0.0.1/favicon.ico'
-  logo: 'https://cdn.jsdelivr.net/npm/oicdn@0.0.1/favicon.ico'
+  icon:
+    logo: material/school
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
   
 
 markdown_extensions:
