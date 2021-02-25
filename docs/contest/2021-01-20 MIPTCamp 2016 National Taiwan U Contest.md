@@ -90,18 +90,21 @@ $$
 设 $g(r,s)$ 为 $n \times m$ 的棋盘，点对 $(r,s)$ 不考虑 $\gcd(r,s)=1$ 是否合法，合法为 $1$，否则为 $0$。
 
 则所求即为：
+
 $$
 \begin{aligned}
 &\sum_{i=1}^n\sum_{j=1}^mg(i,j)[\gcd(i,j)=1] \newline
 =& \sum_{i=1}^n\sum_{j=1}^mg(i,j)\sum_{d \mid \gcd(i,j)} \mu(d) \newline
 =& \sum_{d=1}^{\min(n,m)}\mu(d)\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac{m}{d}\rfloor}g(id,jd)
-
 \end{aligned}
 $$
+
 注意到，如果 $d$ 为偶数，则 $id \equiv jd \pmod 2$，必然有 $g(id,jd)=0$；否则 $(id,jd)$ 在 $n \times m$ 的棋盘中合法（不考虑互质），等价于 $(i,j)$ 在  $\lfloor\dfrac{n}{d}\rfloor \times \lfloor\dfrac{m}{d}\rfloor$ 的棋盘中合法，因为剩下两条限制都满足整除的条件。从而有：
+
 $$
 \sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac{m}{d}\rfloor}g(id,jd)=f\left(\lfloor\frac{n}{d}\rfloor,\lfloor\frac{m}{d}\rfloor\right)[d \bmod 2 = 1]
 $$
+
 这就转化为了上面最终的式子，利用整除分块，时间复杂度为 $O(T\sqrt n)$。
 
 ## **F**
