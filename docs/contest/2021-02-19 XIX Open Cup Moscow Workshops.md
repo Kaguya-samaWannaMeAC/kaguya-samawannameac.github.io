@@ -28,7 +28,7 @@
 
 ### 题解
 
-一顿乱猜，考虑每个质数大概可能的贡献，最后得出$f(p) = \begin{cases}1\quad p \% 6 == 1 \and p\not = 37 \\ -1 \quad p = others\end{cases} $ 
+一顿乱猜，考虑每个质数大概可能的贡献，最后得出$f(p) = \begin{cases}1\quad p = 1 (\operatorname{mod} 6) \and p\not = 37 \newline -1 \quad p = others\end{cases} $ 
 
 ## **C**
 
