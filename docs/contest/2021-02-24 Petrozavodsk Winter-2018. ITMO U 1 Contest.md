@@ -30,7 +30,7 @@
 
 ## **C**
 
-**upsolved by **
+**solved by Bazoka13**
 
 ### 题意
 
@@ -42,7 +42,7 @@
 
 ## **D**
 
-**upsolved by **
+**solved by 2sozx JJLeo**
 
 ### 题意
 
@@ -54,7 +54,7 @@
 
 ## **E**
 
-**upsolved by **
+**solved by 2sozx JJLeo**
 
 ### 题意
 
@@ -78,7 +78,7 @@
 
 ## **G**
 
-**solved by 2sozx,Bazoka13**
+**solved by 2sozx Bazoka13**
 
 ### 题意
 
