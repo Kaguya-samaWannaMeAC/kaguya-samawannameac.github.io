@@ -76,6 +76,7 @@ extra_javascript:
 nav:
   - 首页: index.md
   - 比赛记录: 
+    - WA on test 998244353: contest/WA on test 998244353.md
     - 比赛模板: contest/template.md
     - 2020-05-10~2020-12-13:
         - 2020-05-10 SEERC 2016 D: contest/2020-05-10 SEERC2016.md
@@ -124,6 +125,7 @@ nav:
         - 2021-02-19 XIX Open Cup Moscow Workshops: contest/2021-02-19 XIX Open Cup Moscow Workshops.md
         - 2021-02-24 Petr Winter-2018.ITMO U 1 Contest: contest/2021-02-24 Petrozavodsk Winter-2018. ITMO U 1 Contest.md
   - 知识点: 
+    - TLE on test 1000000007: 知识点/TLE on test 1000000007.md
     - 拟阵: 知识点/拟阵.md
     - 计数问题: 知识点/计数问题.md
   - 2sozx: 
