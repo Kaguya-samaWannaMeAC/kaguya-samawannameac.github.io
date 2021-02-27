@@ -19,13 +19,14 @@ $$
 =& \sum_{i=1}^n \sum_{j=1}^n {\sqrt 2}^{{(a_i+a_j)}^2-a_i^2-a_j^2} \newline
 =& \sum_{i=1}^n \sum_{j=1}^n {\left(\frac{1}{\sqrt 2}\right)}^{a_i^2} {\left(\frac{1}{\sqrt 2}\right)}^{a_j^2} {\sqrt 2}^{{(a_i+a_j)}^2} \newline
 =& \sum_{a_i+a_j=k} {\left(\frac{1}{\sqrt 2}\right)}^{a_i^2} {\left(\frac{1}{\sqrt 2}\right)}^{a_j^2} {\sqrt 2}^{k^2}
-
 \end{aligned}
 $$
 
 另有：
+
 $$
 \sqrt 2 \equiv 116195171 \pmod{998244353}
 $$
-从而可以使用 NTT 即可求解。
+
+从而可以使用 NTT 求解，设 $A$ 为 $a_i$ 的最大值，复杂度即为 $O(A \log A)$。
 
