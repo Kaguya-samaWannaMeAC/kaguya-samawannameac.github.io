@@ -6,15 +6,32 @@
 
 ## **A**
 
-**upsolved by **
+**upsolved by 2sozx**
 
 ### 题意
 
-
+有 $n\in[2,4]$ 个柜台，每个柜台的服务时间在 $[l,r]$ 中独立均匀分布，记为 $t_i$。现在每个柜台服务的剩余时间在 $[0,t_i]$ 中独立均匀分布，记为 $p_i$。现在有一个人，他会选择剩余的服务时间最少的柜台，问这个柜台恰好也是服务时间最少的柜台的概率。
 
 ### 题解
 
+由于为独立均匀分布，因此概率密度为 $f(t_i, p_i) = \dfrac{1}{(r - l)^n\prod\limits_{j = 1}^{n}t_j}$
 
+因此假设此时柜台 $1$ 为剩余服务时间最少的柜台，可以得出概率
+$$
+\begin{aligned}
+\int_{p_1<p_j,p_1<t_1<t_j}f(t_i, p_i)dt_idp_i =& 
+\frac{1}{(r - l)^n}\int_{p_1 < t_1}\frac{1}{t_1}dt_1dp_1
+(\int_{p_1<p_j<t_j,t_1<t_j}\frac{1}{t_j}dt_jdp_j)^{n - 1}\newline =&
+\frac{1}{(r - l)^n}\int_{p_1 < t_1}\frac{1}{t_1}dt_1dp_1
+(\int_{t_1<t_j}\frac{t_j-p_1}{t_j}dt_j)^{n - 1} \newline =&
+\frac{1}{(r - l)^n}\int_{p_1 < t_1}\frac{1}{t_1}\cdot (r - t_1 - p_1 \ln{\frac{r}{t_1}})^{n - 1}dt_1dp_1\newline =&
+\frac{1}{(r - l)^n}\int_{l}^{r}\frac{1}{t_1}dt_1\int_{0}^{t_1}{(r - t_1 - p_1 \ln{\frac{r}{t_1}})^{n - 1}}dp_1\newline =&
+\frac{1}{(r - l)^n}\int_{l}^{r}\frac{1}{t_1}\cdot \frac{1}{n}\cdot \frac{1}{\ln\frac{t_1}{r}}{(r - t_1 + p_1 \ln{\frac{t_1}{r}})^n}|_{0}^{t_1}dt_1\newline =&
+\frac{1}{(r - l)^n}\int_{l}^{r}\frac{1}{t_1n\ln\frac{t_1}{r}}{((r - t_1 + t_1 \ln{\frac{t_1}{r}})^n - (r - t_1)^n)}dt_1\newline \overset{T = \frac{t_1}{r}}=&
+\frac{1}{(r - l)^n}\int_{l/r}^{1}\frac{r^n}{n}\sum\limits_{j = 1}^{n}C_n^{j}(1 - T)^{j} T^{n - j - 1} \ln{T}^{n - j - 1}dt_1
+\end{aligned}
+$$
+积分内的式子就很好求了。
 
 ## **B**
 
@@ -151,6 +168,10 @@ $$
 给定长度为 $n$ 的数列 $a_i$ 和一个数 $h_0$。你一开始站在位置 $1$，手上拿着数 $h_0$。假设你在位置 $i$，手上拿的数是 $h$，那么你可以跳到 $i+h$ 或者 $i+a_i$。每次跳完后手上的数会变为这次你跳的距离。求从 $1$ 跳到 $n$ 的方案数。($1 \le n \le 10^5$，$1 \le a_i,h_0 < n$)
 
 ### 题解
+
+我们考虑 $dp_i$ 表示到第 $i$ 位的方案数。考虑转移，我们先假设在第 $i$ 位无论如何每次跳 $a_i$ 步更新后面的状态，当遇到了 $a_j = a_i$ 时停止向后转移，$i = 1$ 且 $h_0 \not = a_1$ 时需要单独考虑每次跳 $h_0$ 步，最后的 $dp_n$ 即为答案。
+
+首先证明算法正确性：
 
 
 
