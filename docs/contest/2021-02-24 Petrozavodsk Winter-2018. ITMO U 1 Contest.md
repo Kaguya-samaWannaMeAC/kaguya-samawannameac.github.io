@@ -17,6 +17,7 @@
 由于为独立均匀分布，因此概率密度为 $f(t_i, p_i) = \dfrac{1}{(r - l)^n\prod\limits_{j = 1}^{n}t_j}$
 
 因此假设此时柜台 $1$ 为剩余服务时间最少的柜台，可以得出概率
+
 $$
 \begin{aligned}
 \int_{p_1<p_j,p_1<t_1<t_j}f(t_i, p_i)dt_idp_i =& 
@@ -37,6 +38,7 @@ $$
 \frac{1}{(r - l)^n}\int_{l/r}^{1}\frac{r^n}{n}\sum\limits_{j = 1}^{n}C_n^{j}(1 - T)^{j} T^{n - j - 1} \operatorname{ln}{T}^{n - j - 1}dt_1
 \end{aligned}
 $$
+
 积分内的式子就很好求了。
 
 ## **B**
