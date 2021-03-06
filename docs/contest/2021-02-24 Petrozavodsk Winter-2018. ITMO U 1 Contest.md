@@ -25,7 +25,10 @@ $$
 \frac{1}{(r - l)^n}\int_{p_1 < t_1}\frac{1}{t_1}dt_1dp_1
 (\int_{t_1<t_j}\frac{t_j-p_1}{t_j}dt_j)^{n - 1} \newline =&
 \frac{1}{(r - l)^n}\int_{p_1 < t_1}\frac{1}{t_1}\cdot (r - t_1 - p_1 \ln{\frac{r}{t_1}})^{n - 1}dt_1dp_1\newline =&
-\frac{1}{(r - l)^n}\int_{l}^{r}\frac{1}{t_1}dt_1\int_{0}^{t_1}{(r - t_1 - p_1 \ln{\frac{r}{t_1}})^{n - 1}}dp_1\newline =&
+\frac{1}{(r - l)^n}\int_{l}^{r}\frac{1}{t_1}dt_1\int_{0}^{t_1}{(r - t_1 - p_1 \operatorname{ln}{\frac{r}{t_1}})^{n - 1}}dp_1\newline =&
+\frac{1}{(r - l)^n}\int_{l}^{r}\frac{1}{t_1}\cdot \frac{1}{n}\cdot \frac{1}{\operatorname{ln}\frac{t_1}{r}}{(r - t_1 + p_1 \operatorname{ln}{\frac{t_1}{r}})^n}\operatorname{|}_{0}^{t_1}dt_1\newline =&
+\frac{1}{(r - l)^n}\int_{l}^{r}\frac{1}{t_1n\operatorname{ln}\frac{t_1}{r}}{((r - t_1 + t_1 \operatorname{ln}{\frac{t_1}{r}})^n - (r - t_1)^n)}dt_1\newline =&
+\frac{1}{(r - l)^n}\int_{l/r}^{1}\frac{r^n}{n}\sum\limits_{j = 1}^{n}C_n^{j}(1 - T)^{j} T^{n - j - 1} \operatorname{ln}{T}^{n - j - 1}dt_1
 \end{aligned}
 $$
 积分内的式子就很好求了。
