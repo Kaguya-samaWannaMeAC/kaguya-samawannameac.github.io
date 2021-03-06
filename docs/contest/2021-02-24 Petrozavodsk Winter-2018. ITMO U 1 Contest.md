@@ -24,11 +24,8 @@ $$
 (\int_{p_1<p_j<t_j,t_1<t_j}\frac{1}{t_j}dt_jdp_j)^{n - 1}\newline =&
 \frac{1}{(r - l)^n}\int_{p_1 < t_1}\frac{1}{t_1}dt_1dp_1
 (\int_{t_1<t_j}\frac{t_j-p_1}{t_j}dt_j)^{n - 1} \newline =&
-\frac{1}{(r - l)^n}\int_{p_1 < t_1}\frac{1}{t_1}\cdot (r - t_1 - p_1 \ln{\frac{r}{t_1}})^{n - 1}dt_1dp_1\newline =&
-{\frac{1}{(r - l)^{n}}}\int
-
-
-
+\frac{1}{(r - l)^n}\int_{p_1 < t_1}\frac{1}{t_1}\cdot (r - t_1 - p_1 \ln{\frac{r}{t_1}})^{n - 1}dt_1dp_1\newline 
+=&{\frac{1}{(r - l)^{n}}}\int\frac{1}{t_1}dt_1
 \end{aligned}
 $$
 积分内的式子就很好求了。
