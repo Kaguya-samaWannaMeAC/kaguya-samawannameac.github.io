@@ -147,9 +147,11 @@ $$
 ### 题意
 
 给定序列 $a_1,a_2,\cdots,a_n$ 和 $b_1,b_2,\cdots,b_n$，求一个排列 $p_1,p_2,\cdots,p_n$，最小化：
+
 $$
 \sum_{i=1}^n \min \limits _{1\le j\le i}a_{p_i}\oplus b_{p_j}
 $$
+
 多解时要求输出字典序最小的排列。($1 \le n \le 50$)
 
 ### 题解
