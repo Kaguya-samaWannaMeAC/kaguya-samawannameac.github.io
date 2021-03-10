@@ -1,4 +1,4 @@
-/*<script type="text/x-mathjax-config">
+<script type="text/x-mathjax-config">
   if(MathJax){
     MathJax.Hub.Config({
       jax: ["input/TeX","output/HTML-CSS", "output/PreviewHTML"],  //输出格式配置：latex 解析为 DOM结构
@@ -16,16 +16,4 @@
       showProcessingMessages: false,    //隐藏加载时候左下角加载情况的展示
       messageStyle: "none"              //隐藏加载时候左下角加载情况的展示
     });
-  }*/
-window.MathJax = {
-  tex: {
-    inlineMath: [["\\(", "\\)"]],
-    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-    processEscapes: true,
-    processEnvironments: true
-  },
-  options: {
-    ignoreHtmlClass: ".*|",
-    processHtmlClass: "arithmatex"
   }
-};
