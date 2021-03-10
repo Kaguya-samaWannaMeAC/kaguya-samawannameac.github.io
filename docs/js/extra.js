@@ -1,4 +1,3 @@
-
 <script type="text/x-mathjax-config">
   if(MathJax){
     MathJax.Hub.Config({
