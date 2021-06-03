@@ -137,6 +137,8 @@ nav:
         - 2021-05-16 2021-05-16 2016 NEERC: contest/2021-05-16 2016 NEERC.md
         - 2021-05-21 Petrozavodsk Summer-2015. Andrew Stankevich Contest 48: contest/2021-05-21 Petrozavodsk Summer-2015. Andrew Stankevich Contest 48.md
         - 2021-05-26 ICPC 2018 Jiaozuo: contest/2021-05-26 ICPC 2018 Jiaozuo.md
+    - ICPC:
+        - 2021-05-29 ICPC 2020 Macao: contest/2021-05-29 ICPC 2020 Macao.md
   - 知识点: 
     - TLE on test 1000000007: 知识点/TLE on test 1000000007.md
     - 拟阵: 知识点/拟阵.md
