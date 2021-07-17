@@ -80,24 +80,30 @@ nav:
   - 比赛记录: 
     - WA on test 998244353: contest/WA on test 998244353.md
     - 比赛模板: contest/template.md
-    - 2020-05-10~2020-12-13:
-        - 2020-05-10 SEERC 2016 D: contest/2020-05-10 SEERC2016.md
-        - 2020-05-17 2017-2018 NEERC Moscow D: contest/2020-05-17 2017-2018 NEERC Moscow.md
-        - 2020-05-24 2009-2010 NEERC Western D: contest/2020-05-24 2009-2010 NEERC Western.md
+    - ICPC:
+        - 2021-05-29 ICPC 2020 Macao: contest/2021-05-29 ICPC 2020 Macao.md
+        - 2021-06-06 ICPC 西安邀请赛: contest/2021-06-06 ICPC 西安邀请赛.md
+    - 2020牛客多校赛:
         - 2020-07-12 2020牛客暑期多校第一场 D: contest/2020-07-12 2020牛客暑期多校第一场.md
         - 2020-07-13 2020牛客暑期多校第二场 D: contest/2020-07-13 2020牛客暑期多校第二场.md
         - 2020-07-18 2020牛客暑期多校第三场 D: contest/2020-07-18 2020牛客暑期多校第三场.md
         - 2020-07-20 2020牛客暑期多校第四场 D: contest/2020-07-20 2020牛客暑期多校第四场.md
-        - 2020-07-22 2020HDU暑期多校第一场 U: contest/2020-07-22 2020HDU暑期多校第一场.md
-        - 2020-07-23 2020-2021 BUAA Training 01 D: contest/2020-07-23 2020-2021 BUAA ICPC Team Supplementary Training 01.md
         - 2020-07-25 2020牛客暑期多校第五场 D: contest/2020-07-25 2020牛客暑期多校第五场.md
         - 2020-07-20 2020牛客暑期多校第六场 U: contest/2020-07-27 2020牛客暑期多校第六场.md
-        - 2020-07-29 2020HDU暑期多校第二场 U: contest/2020-07-29 2020HDU暑期多校第二场.md
         - 2020-08-01 2020牛客暑期多校第七场 U: contest/2020-08-01 2020牛客暑期多校第七场.md
         - 2020-08-03 2020牛客暑期多校第八场 U: contest/2020-08-03 2020牛客暑期多校第八场.md
-        - 2020-08-06 2020-2021 BUAA Training 02 U: contest/2020-08-06 2020-2021 BUAA ICPC Team Supplementary Training 02.md
         - 2020-08-08 2020牛客暑期多校第九场 U: contest/2020-08-08 2020牛客暑期多校第九场.md
         - 2020-08-10 2020牛客暑期多校第十场 U: contest/2020-08-10 2020牛客暑期多校第十场.md
+    - 2021牛客多校赛:
+        - 2021-07-17 2021牛客暑期多校第一场: contest/2021-07-17 2021牛客暑期多校第一场.md
+    - 2020-05-10~2020-12-13:
+        - 2020-05-10 SEERC 2016 D: contest/2020-05-10 SEERC2016.md
+        - 2020-05-17 2017-2018 NEERC Moscow D: contest/2020-05-17 2017-2018 NEERC Moscow.md
+        - 2020-05-24 2009-2010 NEERC Western D: contest/2020-05-24 2009-2010 NEERC Western.md
+        - 2020-07-22 2020HDU暑期多校第一场 U: contest/2020-07-22 2020HDU暑期多校第一场.md
+        - 2020-07-23 2020-2021 BUAA Training 01 D: contest/2020-07-23 2020-2021 BUAA ICPC Team Supplementary Training 01.md
+        - 2020-07-29 2020HDU暑期多校第二场 U: contest/2020-07-29 2020HDU暑期多校第二场.md
+        - 2020-08-06 2020-2021 BUAA Training 02 U: contest/2020-08-06 2020-2021 BUAA ICPC Team Supplementary Training 02.md
         - 2020-08-13 2020HDU暑期多校第六场 U: contest/2020-08-13 2020HDU暑期多校第六场.md
         - 2020-08-20 2020HDU暑期多校第七场 U: contest/2020-08-20 2020HDU暑期多校第七场.md
         - 2020-09-13 2016 CCPC 长春站 U: contest/2020-09-13 2016 CCPC 长春站.md
@@ -139,9 +145,6 @@ nav:
         - 2021-05-26 ICPC 2018 Jiaozuo: contest/2021-05-26 ICPC 2018 Jiaozuo.md
         - 2021-07-01 ICPC 2018 Nanjing: contest/2021-07-01 ICPC 2018 Nanjing.md
         - 2021-07-07 XVIII Open Cup named after E.V. Pankratiev. GP of SPb: contest/2021-07-07 XVIII Open Cup named after E.V. Pankratiev. GP of SPb.md
-    - ICPC:
-        - 2021-05-29 ICPC 2020 Macao: contest/2021-05-29 ICPC 2020 Macao.md
-        - 2021-06-06 ICPC 西安邀请赛: contest/2021-06-06 ICPC 西安邀请赛.md
   - 知识点: 
     - TLE on test 1000000007: 知识点/TLE on test 1000000007.md
     - 拟阵: 知识点/拟阵.md
