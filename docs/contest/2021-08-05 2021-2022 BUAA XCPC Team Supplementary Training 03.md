@@ -75,7 +75,7 @@ $$
 
 ## **G**
 
-**upsolved by **
+**upsolved by JJLeo Bazoka13 2sozx?**
 
 ### 题意
 
@@ -87,7 +87,7 @@ $$
 
 ## **I**
 
-**upsolved by **
+**upsolved by Bazoka13 JJLeo**
 
 ### 题意
 
