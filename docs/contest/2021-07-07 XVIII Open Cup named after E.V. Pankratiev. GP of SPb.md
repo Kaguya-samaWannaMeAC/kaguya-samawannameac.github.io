@@ -42,10 +42,12 @@ $2_{i-1} = 0011_{i-1}$ ，递推即可
 
 对于 $\dfrac{a}{b} < \dfrac{p}{q} < \dfrac{c}{d},a < b, p < q, c < d$ 
 
-- 若 $a =0$ ，则可取 $p = 1, q = \lfloor\dfrac{d}{c}\rfloor + 1$
-- 否则可以取倒数，$\lfloor\dfrac{b}{a}\rfloor + \dfrac{b \% a}{a} < \dfrac{q}{p} < \lfloor\dfrac{d}{c}\rfloor + \dfrac{d \% c}{c} $ 
-  - 若 $\lfloor\dfrac{b}{a}\rfloor = \lfloor\dfrac{d}{c}\rfloor = x$ ，则 $\dfrac{b \% a}{a} < \dfrac{q - xp}{p} < \lfloor\dfrac{d}{c}\rfloor + \dfrac{d \% c}{c}$，递归即可
-  - 否则我们可以取 $p = 1, q = \lfloor\dfrac{b}{a}\rfloor + 1$
+- 若 $a =0$ ，则可取 $p = 1, q = \lfloor\dfrac{d}{c}\rfloor + 1$。
+
+- 否则可以取倒数，$\lfloor\dfrac{b}{a}\rfloor + \dfrac{b \% a}{a} < \dfrac{q}{p} < \lfloor\dfrac{d}{c}\rfloor + \dfrac{d \% c}{c}$ 。
+
+  > - 若 $\lfloor\dfrac{b}{a}\rfloor = \lfloor\dfrac{d}{c}\rfloor = x$ ，则 $\dfrac{b \% a}{a} < \dfrac{q - xp}{p} < \lfloor\dfrac{d}{c}\rfloor + \dfrac{d \% c}{c}$，递归即可
+  > - 否则我们可以取 $p = 1, q = \lfloor\dfrac{b}{a}\rfloor + 1$
 
 - 由于题中左端为闭区间，因此最后需要判断一下左端是否可以直接成为答案
 
@@ -116,5 +118,4 @@ $2_{i-1} = 0011_{i-1}$ ，递推即可
 MJX：E差点推出来了，就差一步而且很显然，经典神智不清
 
 ## **Dirt**
-
 
