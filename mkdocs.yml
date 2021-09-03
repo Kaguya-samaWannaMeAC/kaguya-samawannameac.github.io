@@ -80,68 +80,63 @@ nav:
   - 比赛记录: 
     - WA on test 998244353: contest/WA on test 998244353.md
     - 比赛模板: contest/template.md
-    - ICPC:
-        - 2021-05-29 ICPC 2020 Macao: contest/2021-05-29 ICPC 2020 Macao.md
-        - 2021-06-06 ICPC 西安邀请赛: contest/2021-06-06 ICPC 西安邀请赛.md
-    - 2020牛客多校赛:
-        - 2020-07-12 2020牛客暑期多校第一场 D: contest/2020-07-12 2020牛客暑期多校第一场.md
-        - 2020-07-13 2020牛客暑期多校第二场 D: contest/2020-07-13 2020牛客暑期多校第二场.md
-        - 2020-07-18 2020牛客暑期多校第三场 D: contest/2020-07-18 2020牛客暑期多校第三场.md
-        - 2020-07-20 2020牛客暑期多校第四场 D: contest/2020-07-20 2020牛客暑期多校第四场.md
-        - 2020-07-25 2020牛客暑期多校第五场 D: contest/2020-07-25 2020牛客暑期多校第五场.md
-        - 2020-07-20 2020牛客暑期多校第六场 U: contest/2020-07-27 2020牛客暑期多校第六场.md
-        - 2020-08-01 2020牛客暑期多校第七场 U: contest/2020-08-01 2020牛客暑期多校第七场.md
-        - 2020-08-03 2020牛客暑期多校第八场 U: contest/2020-08-03 2020牛客暑期多校第八场.md
-        - 2020-08-08 2020牛客暑期多校第九场 U: contest/2020-08-08 2020牛客暑期多校第九场.md
-        - 2020-08-10 2020牛客暑期多校第十场 U: contest/2020-08-10 2020牛客暑期多校第十场.md
-    - 2021HDU多校赛:
-        - 2021-07-20 2021HDU暑期多校第一场: contest/2021-07-20 2021HDU暑期多校第一场.md
-        - 2021-07-27 2021HDU暑期多校第三场: contest/2021-07-27 2021HDU暑期多校第三场.md
-        - 2021-08-03 2021HDU暑期多校第五场: contest/2021-08-03 2021HDU暑期多校第五场.md
-        - 2021-08-12 2021HDU暑期多校第八场: contest/2021-08-12 2021HDU暑期多校第八场.md
-    - 2021牛客多校赛:
+    - 正式比赛:
+        - 2020-10-25 2020 CCPC 威海站: contest/2020-10-25 2020 CCPC 威海站.md
+        - 2020-12-13 2020 ICPC 上海站: contest/2020-12-13 2020 ICPC 上海站.md
+        - 2021-05-29 2020 ICPC 澳门站: contest/2021-05-29 2020 ICPC 澳门站.md
+        - 2021-06-06 2021 ICPC 西安邀请赛: contest/2021-06-06 2021 ICPC 西安邀请赛.md
+    - 2020暑期集训:
+        - 2020-07-12 2020牛客暑期多校第一场: contest/2020-07-12 2020牛客暑期多校第一场.md
+        - 2020-07-13 2020牛客暑期多校第二场: contest/2020-07-13 2020牛客暑期多校第二场.md
+        - 2020-07-18 2020牛客暑期多校第三场: contest/2020-07-18 2020牛客暑期多校第三场.md
+        - 2020-07-20 2020牛客暑期多校第四场: contest/2020-07-20 2020牛客暑期多校第四场.md
+        - 2020-07-23 2020-2021 BUAA ICPC Team Supplementary Training 01: contest/2020-07-23 2020-2021 BUAA ICPC Team Supplementary Training 01.md
+        - 2020-07-25 2020牛客暑期多校第五场: contest/2020-07-25 2020牛客暑期多校第五场.md
+        - 2020-07-27 2020牛客暑期多校第六场 (Undone): contest/2020-07-27 2020牛客暑期多校第六场.md
+        - 2020-08-01 2020牛客暑期多校第七场 (Undone): contest/2020-08-01 2020牛客暑期多校第七场.md
+        - 2020-08-03 2020牛客暑期多校第八场 (Undone): contest/2020-08-03 2020牛客暑期多校第八场.md
+        - 2020-08-06 2020-2021 BUAA ICPC Team Supplementary Training 02 (Undone): contest/2020-08-06 2020-2021 BUAA ICPC Team Supplementary Training 02.md
+        - 2020-08-08 2020牛客暑期多校第九场 (Undone): contest/2020-08-08 2020牛客暑期多校第九场.md
+        - 2020-08-10 2020牛客暑期多校第十场 (Undone): contest/2020-08-10 2020牛客暑期多校第十场.md
+        - 2020-09-19 2020-2021 BUAA ICPC Team Supplementary Training 03 (Undone): contest/2020-09-19 2020-2021 BUAA ICPC Team Supplementary Training 03.md
+        - 2020-09-20 2020 CCPC 网络赛 (Undone): contest/2020-09-20 2020 CCPC 网络赛.md
+        - 2020-09-26 2020-2021 BUAA ICPC Team Supplementary Training 04 (Undone): contest/2020-09-26 2020-2021 BUAA ICPC Team Supplementary Training 04.md
+        - 2020-09-27 2020-2021 BUAA ICPC Team Supplementary Training 05 (Undone): contest/2020-09-27 2020-2021 BUAA ICPC Team Supplementary Training 05.md
+    - 2021暑期集训:
         - 2021-07-17 2021牛客暑期多校第一场: contest/2021-07-17 2021牛客暑期多校第一场.md
         - 2021-07-19 2021牛客暑期多校第二场: contest/2021-07-19 2021牛客暑期多校第二场.md
+        - 2021-07-22 2021-2022 BUAA XCPC Team Supplementary Training 01: contest/2021-07-22 2021-2022 BUAA XCPC Team Supplementary Training 01.md
         - 2021-07-24 2021牛客暑期多校第三场: contest/2021-07-24 2021牛客暑期多校第三场.md
         - 2021-07-26 2021牛客暑期多校第四场: contest/2021-07-26 2021牛客暑期多校第四场.md
         - 2021-07-31 2021牛客暑期多校第五场: contest/2021-07-31 2021牛客暑期多校第五场.md
+        - 2021-07-29 2021-2022 BUAA XCPC Team Supplementary Training 02: contest/2021-07-29 2021-2022 BUAA XCPC Team Supplementary Training 02.md
         - 2021-08-02 2021牛客暑期多校第六场: contest/2021-08-02 2021牛客暑期多校第六场.md
+        - 2021-08-05 2021-2022 BUAA XCPC Team Supplementary Training 03: contest/2021-08-05 2021-2022 BUAA XCPC Team Supplementary Training 03.md
         - 2021-08-07 2021牛客暑期多校第七场: contest/2021-08-07 2021牛客暑期多校第七场.md
         - 2021-08-09 2021牛客暑期多校第八场: contest/2021-08-09 2021牛客暑期多校第八场.md
         - 2021-08-14 2021牛客暑期多校第九场: contest/2021-08-14 2021牛客暑期多校第九场.md
         - 2021-08-16 2021牛客暑期多校第十场: contest/2021-08-16 2021牛客暑期多校第十场.md
-    - 2021-2022暑期集训:
-        - 2021-07-22 2021-2022 BUAA XCPC Team Supplementary Training 01: contest/2021-07-22 2021-2022 BUAA XCPC Team Supplementary Training 01.md
-        - 2021-07-29 2021-2022 BUAA XCPC Team Supplementary Training 02: contest/2021-07-29 2021-2022 BUAA XCPC Team Supplementary Training 02.md
-        - 2021-08-05 2021-2022 BUAA XCPC Team Supplementary Training 03: contest/2021-08-05 2021-2022 BUAA XCPC Team Supplementary Training 03.md
     - 2020-05-10~2020-12-13:
-        - 2020-05-10 SEERC 2016 D: contest/2020-05-10 SEERC2016.md
-        - 2020-05-17 2017-2018 NEERC Moscow D: contest/2020-05-17 2017-2018 NEERC Moscow.md
-        - 2020-05-24 2009-2010 NEERC Western D: contest/2020-05-24 2009-2010 NEERC Western.md
-        - 2020-07-22 2020HDU暑期多校第一场 U: contest/2020-07-22 2020HDU暑期多校第一场.md
-        - 2020-07-23 2020-2021 BUAA Training 01 D: contest/2020-07-23 2020-2021 BUAA ICPC Team Supplementary Training 01.md
-        - 2020-07-29 2020HDU暑期多校第二场 U: contest/2020-07-29 2020HDU暑期多校第二场.md
-        - 2020-08-06 2020-2021 BUAA Training 02 U: contest/2020-08-06 2020-2021 BUAA ICPC Team Supplementary Training 02.md
-        - 2020-08-13 2020HDU暑期多校第六场 U: contest/2020-08-13 2020HDU暑期多校第六场.md
-        - 2020-08-20 2020HDU暑期多校第七场 U: contest/2020-08-20 2020HDU暑期多校第七场.md
-        - 2020-09-13 2016 CCPC 长春站 U: contest/2020-09-13 2016 CCPC 长春站.md
-        - 2020-09-19 2020-2021 BUAA Training 03 U: contest/2020-09-19 2020-2021 BUAA ICPC Team Supplementary Training 03.md
-        - 2020-09-20 2020 CCPC 网络赛 U: contest/2020-09-20 2020 CCPC 网络赛.md
-        - 2020-09-26 2020-2021 BUAA Training 04 U: contest/2020-09-26 2020-2021 BUAA ICPC Team Supplementary Training 04.md
-        - 2020-09-27 2020-2021 BUAA Training 05 U: contest/2020-09-27 2020-2021 BUAA ICPC Team Supplementary Training 05.md
-        - 2020-10-04 2016-2017 NEERC Southern U: contest/2020-10-04 2016-2017 ACM-ICPC, NEERC, Southern Subregional Contest.md
-        - 2020-10-07 2016 CCPC 合肥站 U: contest/2020-10-07 2016 CCPC 合肥站.md
-        - 2020-10-10 2016 ICPC 沈阳站 U: contest/2020-10-10 2016 ICPC 沈阳站.md
-        - 2020-11-18 2015 ICPC 上海站 U: contest/2020-11-18 2015 ICPC 上海站.md
-        - 2020-11-21 2015-2016 NEERC Moscow U: contest/2020-11-21 2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest.md
-        - 2020-12-05 2020 CCPC 长春站 U: contest/2020-12-05 2020 CCPC 长春站.md
-        - 2020-12-09 2020 CCPC 绵阳站 U: contest/2020-12-09 2020 CCPC 绵阳站.md
-        - 2020-12-13 2020 ICPC 上海站 U: contest/2020-12-13 2020 ICPC 上海站.md
+        - 2020-05-10 SEERC 2016: contest/2020-05-10 SEERC2016.md
+        - 2020-05-17 2017-2018 NEERC Moscow: contest/2020-05-17 2017-2018 NEERC Moscow.md
+        - 2020-05-24 2009-2010 NEERC Western: contest/2020-05-24 2009-2010 NEERC Western.md
+        - 2020-07-22 2020HDU暑期多校第一场 (Undone): contest/2020-07-22 2020HDU暑期多校第一场.md
+        - 2020-07-29 2020HDU暑期多校第二场 (Undone): contest/2020-07-29 2020HDU暑期多校第二场.md
+        - 2020-08-13 2020HDU暑期多校第六场 (Undone): contest/2020-08-13 2020HDU暑期多校第六场.md
+        - 2020-08-20 2020HDU暑期多校第七场 (Undone): contest/2020-08-20 2020HDU暑期多校第七场.md
+        - 2020-09-13 2016 CCPC 长春站 (Undone): contest/2020-09-13 2016 CCPC 长春站.md
+        - 2020-10-04 2016-2017 NEERC Southern (Undone): contest/2020-10-04 2016-2017 ACM-ICPC, NEERC, Southern Subregional Contest.md
+        - 2020-10-07 2016 CCPC 合肥站 (Undone): contest/2020-10-07 2016 CCPC 合肥站.md
+        - 2020-10-10 2016 ICPC 沈阳站 (Undone): contest/2020-10-10 2016 ICPC 沈阳站.md
+        - 2020-11-18 2015 ICPC 上海站 (Undone): contest/2020-11-18 2015 ICPC 上海站.md
+        - 2020-11-21 2015-2016 NEERC Moscow (Undone): contest/2020-11-21 2015-2016 ACM-ICPC, NEERC, Moscow Subregional Contest.md
+        - 2020-12-05 2020 CCPC 长春站 (Undone): contest/2020-12-05 2020 CCPC 长春站.md
+        - 2020-12-09 2020 CCPC 绵阳站 (Undone): contest/2020-12-09 2020 CCPC 绵阳站.md
     - 2020-12-14~:          
-        - 2020-12-16 XIX Open Cup SPb Div1 U: contest/2020-12-16 XIX Open Cup SPb Div1.md
-        - 2020-12-23 XIX Open Cup Korea Div1 D: contest/2020-12-23 XIX Open Cup Korea Div1.md
-        - 2020-12-30 2020 ICPC 南京 U: contest/2020-12-30 2020 ICPC 南京.md
-        - 2021-01-15 2020 ICPC 济南 U: contest/2021-01-15 2020 ICPC 济南.md
+        - 2020-12-16 XIX Open Cup SPb Div1 (Undone): contest/2020-12-16 XIX Open Cup SPb Div1.md
+        - 2020-12-23 XIX Open Cup Korea Div1: contest/2020-12-23 XIX Open Cup Korea Div1.md
+        - 2020-12-30 2020 ICPC 南京站 (Undone): contest/2020-12-30 2020 ICPC 南京站.md
+        - 2021-01-15 2020 ICPC 济南站 (Undone): contest/2021-01-15 2020 ICPC 济南站.md
         - 2021-01-20 MIPTCamp 2016 National Taiwan U: contest/2021-01-20 MIPTCamp 2016 National Taiwan U Contest.md
         - 2021-01-26 Namomo Winter Camp 1: contest/2021-01-26 Namomo Winter Camp 1.md
         - 2021-01-27 Namomo Winter Camp 2: contest/2021-01-27 Namomo Winter Camp 2.md
@@ -153,22 +148,30 @@ nav:
         - 2021-03-06 Petrozavodsk Winter 2019 The Japanese Contest: contest/2021-03-06 Petrozavodsk Winter 2019 The Japanese Contest.md
         - 2021-03-17 Petrozavodsk Winter-2018. Jagiellonian U Contest: contest/2021-03-17 Petrozavodsk Winter-2018. Jagiellonian U Contest.md
         - 2021-03-27 2015 EC Final: contest/2021-03-27 2015 EC Final.md
-        - 2021-04-07 2019-2020 ICPC Asia Hong Kong Regional Contest: contest/2021-04-07 2019-2020 ICPC Asia Hong Kong Regional Contest.md
-        - 2021-04-11 2020 ICPC 昆明: contest/2021-04-12 2020 ICPC 昆明.md
+        - 2021-04-07 2019 ICPC 香港站: contest/2021-04-07 2019 ICPC 香港站.md
+        - 2021-04-11 2020 ICPC 昆明站: contest/2021-04-12 2020 ICPC 昆明站.md
         - 2021-04-21 NEERC 2017: contest/2021-04-21 NEERC 17.md
         - 2021-04-25 XIII Open Grodno SU Championship.: contest/2021-04-25 XIII Open Grodno SU Championship..md
-        - 2021-05-14 2018 ICPC 沈阳: contest/2021-05-14 2018 ICPC 沈阳.md
+        - 2021-05-14 2018 ICPC 沈阳站: contest/2021-05-14 2018 ICPC 沈阳.md
         - 2021-05-16 2021-05-16 2016 NEERC: contest/2021-05-16 2016 NEERC.md
         - 2021-05-21 Petrozavodsk Summer-2015. Andrew Stankevich Contest 48: contest/2021-05-21 Petrozavodsk Summer-2015. Andrew Stankevich Contest 48.md
-        - 2021-05-26 ICPC 2018 Jiaozuo: contest/2021-05-26 ICPC 2018 Jiaozuo.md
-        - 2021-07-01 ICPC 2018 Nanjing: contest/2021-07-01 ICPC 2018 Nanjing.md
+        - 2021-05-26 2018 ICPC 焦作站: contest/2021-05-26 2018 ICPC 焦作站.md
+        - 2021-07-01 2018 ICPC 南京站: contest/2021-07-01 2018 ICPC 南京站.md
         - 2021-07-07 XVIII Open Cup named after E.V. Pankratiev. GP of SPb: contest/2021-07-07 XVIII Open Cup named after E.V. Pankratiev. GP of SPb.md
+        - 2021-07-20 2021HDU暑期多校第一场: contest/2021-07-20 2021HDU暑期多校第一场.md
+        - 2021-07-27 2021HDU暑期多校第三场: contest/2021-07-27 2021HDU暑期多校第三场.md
+        - 2021-08-03 2021HDU暑期多校第五场: contest/2021-08-03 2021HDU暑期多校第五场.md
         - 2021-08-10 Petrozavodsk Summer-2013. Comenius U Selection by Michal Forisek: contest/2021-08-10 Petrozavodsk Summer-2013. Comenius U Selection by Michal Forisek.md
-        - 2021-08-18 Petrozavodsk Winter-2019. Oleksandr Kulkov Contest 1.: contest/2021-08-18 Petrozavodsk Winter-2019. Oleksandr Kulkov Contest 1.md
-        - 2021-08-22 2020 ICPC 沈阳: contest/2021-08-22 ICPC2020沈阳.md
-        - 2021-08-23 PtzCamp2021 Day1: contest/2021-08-23 PtzCamp2021 Day1.md
-        - 2021-08-24 PtzCamp2021 Day2: contest/2021-08-23 PtzCamp2021 Day2.md
-        - 2021-08-25 PtzCamp2021 Day3: contest/2021-08-23 PtzCamp2021 Day3.md
+        - 2021-08-12 2021HDU暑期多校第八场: contest/2021-08-12 2021HDU暑期多校第八场.md
+        - 2021-08-18 Petrozavodsk Winter-2019. Oleksandr Kulkov Contest 1: contest/2021-08-18 Petrozavodsk Winter-2019. Oleksandr Kulkov Contest 1.md
+        - 2021-08-22 2020 ICPC 沈阳站: contest/2021-08-22 2020 ICPC 沈阳站.md
+        - 2021-08-23 PtzCamp2021Summer Day1: contest/2021-08-23 PtzCamp2021Summer Day1.md
+        - 2021-08-24 PtzCamp2021Summer Day2: contest/2021-08-24 PtzCamp2021Summer Day2.md
+        - 2021-08-25 PtzCamp2021Summer Day3: contest/2021-08-25 PtzCamp2021Summer Day3.md
+        - 2021-08-27 PtzCamp2021Summer Day4: contest/2021-08-27 PtzCamp2021Summer Day4.md
+        - 2021-08-28 2021 CCPC 网络赛: contest/2021-08-28 2021 CCPC 网络赛.md
+        - 2021-08-29 PtzCamp2021Summer Day6 replacement: contest/2021-08-29 PtzCamp2021Summer Day6 replacement.md
+        - 2021-08-30 PtzCamp2021Summer Day7: contest/2021-08-30 PtzCamp2021Summer Day7.md
   - 知识点: 
     - TLE on test 1000000007: 知识点/TLE on test 1000000007.md
     - 拟阵: 知识点/拟阵.md
