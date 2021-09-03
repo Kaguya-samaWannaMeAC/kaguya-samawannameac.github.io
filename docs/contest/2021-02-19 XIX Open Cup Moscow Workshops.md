@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [XVII Open Cup named after E.V. Pankratiev. Grand Prix of Moscow Workshops](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=010377)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |

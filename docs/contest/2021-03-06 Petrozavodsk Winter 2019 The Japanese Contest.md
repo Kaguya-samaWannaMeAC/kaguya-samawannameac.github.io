@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Petrozavodsk Winter-2019. Fukuoka-2018](http://opentrains.snarknews.info/~ejudge/team.cgi?SID=f62c1129d0b7e4e3&action=2)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |

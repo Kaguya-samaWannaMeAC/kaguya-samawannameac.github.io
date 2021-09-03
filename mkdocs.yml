@@ -26,7 +26,8 @@ theme:
     accent: 'Pink'
   features:
     - navigation.tabs
-    - toc.integrate
+    - navigation.top
+    #- toc.integrate
   language: 'zh'
   favicon: 'https://cdn.jsdelivr.net/npm/oicdn@0.0.1/favicon.ico'
   icon:
@@ -152,7 +153,7 @@ nav:
         - 2021-04-11 2020 ICPC 昆明站: contest/2021-04-12 2020 ICPC 昆明站.md
         - 2021-04-21 NEERC 2017: contest/2021-04-21 NEERC 17.md
         - 2021-04-25 XIII Open Grodno SU Championship.: contest/2021-04-25 XIII Open Grodno SU Championship..md
-        - 2021-05-14 2018 ICPC 沈阳站: contest/2021-05-14 2018 ICPC 沈阳.md
+        - 2021-05-14 2018 ICPC 沈阳站: contest/2021-05-14 2018 ICPC 沈阳站.md
         - 2021-05-16 2021-05-16 2016 NEERC: contest/2021-05-16 2016 NEERC.md
         - 2021-05-21 Petrozavodsk Summer-2015. Andrew Stankevich Contest 48: contest/2021-05-21 Petrozavodsk Summer-2015. Andrew Stankevich Contest 48.md
         - 2021-05-26 2018 ICPC 焦作站: contest/2021-05-26 2018 ICPC 焦作站.md

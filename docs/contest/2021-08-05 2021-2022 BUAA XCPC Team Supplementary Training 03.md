@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [2021-2022 BUAA XCPC Team Supplementary Training 03](https://codeforces.com/group/2g1PZcsgml/contest/339356)
 
 | 排名 | 当场过题数 | 至今过题数 | 总题数 |

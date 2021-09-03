@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [2016-2017 ACM-ICPC, NEERC, Southern Subregional Contest](https://codeforc.es/contest/730)
 
 | 排名 | 当场过题数 | 至今过题数 | 总题数 |

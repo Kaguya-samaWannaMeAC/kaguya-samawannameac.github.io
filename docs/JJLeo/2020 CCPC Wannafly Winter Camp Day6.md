@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # 2020 CCPC Wannafly Winter Camp Day6
 
 ## **A**

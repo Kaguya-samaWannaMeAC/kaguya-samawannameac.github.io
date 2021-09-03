@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Petrozavodsk Winter-2019. Oleksandr Kulkov Contest 1](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001537)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |

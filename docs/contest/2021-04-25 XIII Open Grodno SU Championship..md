@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [XIII Open Grodno SU Championship.](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=6299&locale_id=0)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |

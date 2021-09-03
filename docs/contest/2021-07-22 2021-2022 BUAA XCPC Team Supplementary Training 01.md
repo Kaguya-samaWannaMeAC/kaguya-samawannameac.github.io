@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [BUAA XCPC Team Supplementary Training 01](https://codeforces.com/group/2g1PZcsgml/contest/337661)
 
 | 排名 | 当场过题数 | 至今过题数 | 总题数 |

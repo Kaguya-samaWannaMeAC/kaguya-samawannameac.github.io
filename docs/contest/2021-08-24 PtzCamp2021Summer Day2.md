@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Petrozavodsk Camp, Summer 2021 NAC-2021 Finals Contest](https://official.contest.yandex.com/ptz-summer-2021/contest/28721/enter)
 
 | 排名  | 当场过题数 | 至今过题数 | 总题数 |

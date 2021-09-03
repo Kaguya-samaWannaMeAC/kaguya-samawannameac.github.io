@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Namomo Winter Camp 1](https://vjudge.net/contest/419865)
 
 | 排名 | 当场过题数 | 至今过题数 | 总题数 |

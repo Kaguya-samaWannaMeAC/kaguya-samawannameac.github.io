@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Petrozavodsk Camp, Summer 2021 Shanghai ICPC Camp 2021 Contest](https://official.contest.yandex.com/ptz-summer-2021/contest/28723/enter)
 
 | 排名  | 当场过题数 | 至今过题数 | 总题数 |

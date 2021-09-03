@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [XIX Open Cup named after E.V. Pankratiev. Grand Prix of SPb, Division 1.](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=010433)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |

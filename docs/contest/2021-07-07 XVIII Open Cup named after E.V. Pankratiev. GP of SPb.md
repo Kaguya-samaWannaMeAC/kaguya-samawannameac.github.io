@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [XVIII Open Cup named after E.V. Pankratiev. GP of SPb](http://opentrains.snarknews.info/~ejudge/team.cgi?SID=c46e31e5c8c8d7af&action=2)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |

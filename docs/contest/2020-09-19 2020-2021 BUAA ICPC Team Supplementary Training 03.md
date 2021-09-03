@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [2020-2021 BUAA ICPC Team Supplementary Training 03](https://codeforces.com/group/azDPdoF24f/contest/295458)
 
 | 排名 | 当场过题数 | 至今过题数 | 总题数 |

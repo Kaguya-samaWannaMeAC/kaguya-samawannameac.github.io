@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Namomo Camp 2021 Contest](https://namomo.duck-ac.cn/)
 
 | 排名 | 当场过题数 | 至今过题数 | 总题数 |

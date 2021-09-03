@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Petrozavodsk Winter-2018. Jagiellonian U Contest](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001511)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |

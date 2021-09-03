@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Moscow Pre-Finals Workshop 2016. National Taiwan U Selection.](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=006282)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 | dirt |

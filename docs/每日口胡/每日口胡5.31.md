@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [每日口胡5.31](https://codeforces.com/gym/330456)
 
 ## **A**

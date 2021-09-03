@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Petrozavodsk Summer-2015. Andrew Stankevich Contest 48](http://opentrains.snarknews.info/~ejudge/team.cgi?SID=b618c7d5c58001cf&action=2&lt=1)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |

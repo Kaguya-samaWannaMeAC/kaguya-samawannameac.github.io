@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # [Petrozavodsk Summer-2013. Comenius U Selection by Michal Forisek.](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=001424)
 
 | 排名    | 当场过题数 | 至今过题数 | 总题数 |
