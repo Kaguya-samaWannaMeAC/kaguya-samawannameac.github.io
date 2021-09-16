@@ -7,11 +7,11 @@ hide:
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |
 | ------ | ---------- | ---------- | ------ |
-| 55/100 | 4          | 4          | 11     |
+| 55/100 | 4          | 8          | 11     |
 
 ## **A**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
@@ -47,19 +47,7 @@ hide:
 
 ## **D**
 
-**upsolved by **
-
-### 题意
-
-
-
-### 题解
-
-
-
-## **E**
-
-**upsolved by **
+**solved by 2sozx JJLeo**
 
 ### 题意
 
@@ -71,7 +59,7 @@ hide:
 
 ## **F**
 
-**upsolved by **
+**solved by 2sozx Bazoka13 JJLeo**
 
 ### 题意
 
@@ -87,7 +75,7 @@ hide:
 
 ### 题意
 
-
+结式。
 
 ### 题解
 
@@ -95,7 +83,7 @@ hide:
 
 ## **H**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
@@ -107,7 +95,7 @@ hide:
 
 ## **I**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
@@ -119,7 +107,7 @@ hide:
 
 ## **J**
 
-**upsolved by **
+**upsolved by JJLeo**
 
 ### 题意
 
@@ -131,19 +119,7 @@ hide:
 
 ## **K**
 
-**upsolved by **
-
-### 题意
-
-
-
-### 题解
-
-
-
-## **L**
-
-**upsolved by **
+**solved by Bazoka13**
 
 ### 题意
 
