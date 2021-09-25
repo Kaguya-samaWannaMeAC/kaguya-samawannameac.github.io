@@ -3,11 +3,11 @@ hide:
   - toc
 ---
 
-# [XVIII Open Cup named after E.V. Pankratiev. Grand Prix of Urals](https://codeforc.es/)
+# [XVIII Open Cup named after E.V. Pankratiev. Grand Prix of Urals](http://opentrains.snarknews.info/~ejudge/team.cgi?SID=54974ae069c103d0&action=2&lt=1)
 
-| 排名    | 当场过题数 | 至今过题数 | 总题数 |
-| ------- | ---------- | ---------- | ------ |
-| 233/233 | 5          | 5          | 11     |
+| 排名   | 当场过题数 | 至今过题数 | 总题数 |
+| ------ | ---------- | ---------- | ------ |
+| 60/201 | 5          | 5          | 11     |
 
 ## **A**
 
@@ -27,11 +27,20 @@ hide:
 
 ### 题意
 
-
+求满足对于 $\forall i \in [L, R]$ 有 $(i \bmod Q)\bmod x = i\bmod x$ 的 $x$ 的数量，$1 \le L, R, Q\le 10^{12}$
 
 ### 题解
 
+显然 $Q > R$ 时有无穷解。
 
+考虑 $Q \le R$ 。
+
+- 先考虑单独的 $s \in [L, R]$ 。
+
+  $(s - (s \bmod Q)) \bmod x = 0$ ，显然 $x$ 应该是 $s - (s - \bmod Q) = Q\lfloor\dfrac{s}{Q}\rfloor$ 的因子。
+
+- 若 $\lfloor\dfrac{L}{Q}\rfloor = \lfloor\dfrac{R}{Q}\rfloor$ ，显然答案即为 $Q\lfloor\dfrac{L}{Q}\rfloor$ 的因子个数。
+- 否则答案 $x$ 则为 $x | Q\times gcd(\lfloor\dfrac{L}{Q}\rfloor, \lfloor\dfrac{L}{Q}\rfloor + 1, \dots, \lfloor\dfrac{R}{Q}\rfloor)$ ，显然 $x | Q$ ，即答案为 $Q$ 的因子个数。
 
 ## **C**
 
