@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# [XVIII Open Cup named after E.V. Pankratiev. Grand Prix of Urals](http://opentrains.snarknews.info/~ejudge/team.cgi?SID=54974ae069c103d0&action=2&lt=1)
+# [XVIII Open Cup named after E.V. Pankratiev. Grand Prix of Urals](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=010392)
 
 | 排名   | 当场过题数 | 至今过题数 | 总题数 |
 | ------ | ---------- | ---------- | ------ |
