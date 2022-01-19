@@ -160,7 +160,7 @@ nav:
         - 2021-05-16 2021-05-16 2016 NEERC: contest/2021-05-16 2016 NEERC.md
         - 2021-05-21 Petrozavodsk Summer-2015. Andrew Stankevich Contest 48: contest/2021-05-21 Petrozavodsk Summer-2015. Andrew Stankevich Contest 48.md
         - 2021-05-26 2018 ICPC 焦作站: contest/2021-05-26 2018 ICPC 焦作站.md
-    - 2021-05-30~:
+    - 2021-05-30~2021-12-31:
         - 2021-07-01 2018 ICPC 南京站: contest/2021-07-01 2018 ICPC 南京站.md
         - 2021-07-07 XVIII Open Cup named after E.V. Pankratiev. GP of SPb: contest/2021-07-07 XVIII Open Cup named after E.V. Pankratiev. GP of SPb.md
         - 2021-07-20 2021HDU暑期多校第一场: contest/2021-07-20 2021HDU暑期多校第一场.md
@@ -195,6 +195,8 @@ nav:
         - 2021-11-12 2018-2019 ACM-ICPC, Asia East Continent Finals: contest/2021-11-12 2018-2019 ACM-ICPC, Asia East Continent Finals.md
         - 2021-11-18 2021 CCPC 桂林: contest/2021-11-18 2021 CCPC 桂林.md
         - 2021-11-24 2021 CCPC 威海: contest/2021-11-24 2021 CCPC 威海.md
+      - 2022-01-01~:
+        - 2022-01-18 2018 ICPC Asia Jakarta Regional Contest: contest/2022-01-18 2018 ICPC Asia Jakarta Regional Contest.md
   - 知识点: 
     - TLE on test 1000000007: 知识点/TLE on test 1000000007.md
     - 拟阵: 知识点/拟阵.md
