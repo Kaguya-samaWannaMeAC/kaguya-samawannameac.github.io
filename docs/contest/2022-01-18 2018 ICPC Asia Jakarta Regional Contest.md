@@ -54,7 +54,6 @@ $n$ 个节点的树，$q$ 次以下三种操作之一：
   accumsan nibh eu mattis.  
   Vivamus tempus velit eros, porttitor placerat nibh
   lacinia sed. Aenean in finibus diam.
-
     * Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
     * Nam vulputate tincidunt fringilla.
     * Nullam dignissim ultrices urna non auctor.
@@ -62,12 +61,9 @@ $n$ 个节点的树，$q$ 次以下三种操作之一：
 
 
 
-
-
 - **增删节点，多次询问每个连通块大小**
 
-   设 $\textit{siz}_i$ 是以 $i$ 为根的子树的大小，$T(i)$ 以 $i$ 为根的子树的中点的集合。
-
+   设 $\textit{siz}_i$ 是以 $i$ 为根的子树的大小，$T(i)$ 以 $i$ 为根的子树的中点的集合。  
    通过维护每个点的一个权值 $s_i$，使得 $\displaystyle \textit{siz}_x- \sum_{i \in T(x)} s_i$ 等于以 $x$ 为根子树中和 $x$ 连通点的数量。如果被删的节点之间没有祖先关系，那么直接令被删点 $i$ 的权值为 $\textit{siz}_i$ ，其它点 $s_i=0$ 即可。如果出现了祖先关系，那么这样会算重，需要进行一些调整：
 
    - 当 $x$ 被删除时，设 $x$ 所在连通块没被删的点中深度最小的点为 $y$，令 $s_x=\displaystyle \textit{siz}_x- \sum_{i \in T(x)} s_i$，若 $y$ 不为根则令 $s_y$ 减去 $s_x$。
@@ -78,7 +74,6 @@ $n$ 个节点的树，$q$ 次以下三种操作之一：
 - **增删节点，多次给一个点所在连通块的每个点增加一个值，最后只询问一次所有点权值和**
 
    给每个点维护两个权值 $a_i$ 和 $b_i$。
-
    找到 $x$ 所在连通块没被删的点中深度最小的点 $y$，直接给 $y$ 子树中每个点 $a_i$ 和 $b_i$ 均增加对应的权值。当点 $x$ 被删时将 $b_x$ 设为 $0$，当点 $x$ 被复原时，将 $x$ 子树中所有点 $a_i$ 减去 $b_x$，相当于把不连通多加的部分减掉。
 
    当被删的节点之间没有祖先关系时，上述做法是正确的，否则如果先复原 $x$ 再复原 $y$ 且 $y$ 是 $x$ 的祖先，那么就会让 $x$ 子树中的点多减去 $y$ 祖先增加的权值。
