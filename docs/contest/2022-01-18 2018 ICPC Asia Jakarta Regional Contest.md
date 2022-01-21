@@ -50,20 +50,6 @@ $n$ 个节点的树，$q$ 次以下三种操作之一：
 
 接着依次处理两个查询操作：
 
-- Nulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur
-  accumsan nibh eu mattis.  
-  Vivamus tempus velit eros, porttitor placerat nibh
-  lacinia sed. Aenean in finibus diam.
-
-    * Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
-    * Nam vulputate tincidunt fringilla.
-    * Nullam dignissim ultrices urna non auctor.
-
-
-
-
-
-
 - **增删节点，多次询问每个连通块大小**  
    设 $\textit{siz}_i$ 是以 $i$ 为根的子树的大小，$T(i)$ 以 $i$ 为根的子树的中点的集合。
    通过维护每个点的一个权值 $s_i$，使得 $\displaystyle \textit{siz}_x- \sum_{i \in T(x)} s_i$ 等于以 $x$ 为根子树中和 $x$ 连通点的数量。如果被删的节点之间没有祖先关系，那么直接令被删点 $i$ 的权值为 $\textit{siz}_i$ ，其它点 $s_i=0$ 即可。如果出现了祖先关系，那么这样会算重，需要进行一些调整：
